@@ -60,7 +60,7 @@ function buildModule(dataJsonText) {
   const template = extractTemplate(html);
   const logicSrc = extractClassifyLogic(template);
   const stub = `const document = { getElementById: () => ({ textContent: ${JSON.stringify(dataJsonText)} }) };\n`;
-  const full = stub + logicSrc + '\nconst window = {};\nmodule.exports = { classifyKeyword, classifyLLM, CARDS, GENERAL_SCRIPTS, SCRIPT_INDEX, slug };\n';
+  const full = stub + logicSrc + '\nconst window = {};\nmodule.exports = { classifyKeyword, classifyLLM, CARDS, GENERAL_SCRIPTS, OOS, SCRIPT_INDEX, slug };\n';
   const tmpPath = path.join(require('os').tmpdir(), `classify-sim-${Date.now()}-${Math.random().toString(36).slice(2)}.js`);
   fs.writeFileSync(tmpPath, full);
   try {
@@ -73,7 +73,7 @@ function buildModule(dataJsonText) {
 async function main() {
   const dataJsonText = fs.readFileSync(DATA_PATH, 'utf-8').trimEnd();
   const mod = buildModule(dataJsonText);
-  const { classifyKeyword, classifyLLM, CARDS, slug } = mod;
+  const { classifyKeyword, classifyLLM, CARDS, OOS, slug } = mod;
 
   const failures = [];
   let checks = 0;
@@ -130,6 +130,28 @@ async function main() {
             check: 'context-followup (classifyLLM safety net)',
             card: card.id, topic: topic.topic, keyword: kw, message: kw, history: history[0].content,
             got: llmResult.script ? llmResult.script.label : `no match (${llmResult.kind})`,
+          });
+        }
+      }
+    }
+  }
+
+  // Check 4: a genuinely unrelated out-of-scope message, asked right after
+  // discussing a specific card, must NOT get pulled into that card's Overview
+  // by classifyLLM's context-card safety net. Caught live: "I lost my card"
+  // right after a LeXing Card question was wrongly resolving to the LeXing
+  // Card's Overview instead of staying a clean escalation.
+  for (const card of CARDS) {
+    const history = [{ role: 'user', content: `Tell me about the ${card.name}` }];
+    for (const oos of OOS) {
+      for (const kw of oos.keywords) {
+        checks++;
+        const llmResult = await classifyLLM(kw, history);
+        if (llmResult.script) {
+          failures.push({
+            check: 'oos-after-context (classifyLLM safety net)',
+            card: card.id, topic: oos.label, keyword: kw, message: kw, history: history[0].content,
+            got: `wrongly matched a card script: ${llmResult.script.label}`,
           });
         }
       }
