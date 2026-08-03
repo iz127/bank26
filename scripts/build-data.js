@@ -19,6 +19,19 @@ const DATA_PATH = path.join(ROOT, 'data.json');
 const TEMPLATE_OPEN = '<script type="__bundler/template">';
 const CARD_DATA_RE = /<script type="application\/json" id="card-data">\n([\s\S]*?)\n<\/script>/;
 
+// The template is HTML that itself contains <script>...</script> tags (a polyfill,
+// the app script, etc). Browsers close a <script> element at the first literal
+// "</script>" they scan forward to, regardless of JS/JSON string context — so once
+// this HTML is embedded as a JSON string inside the OUTER wrapper's <script> tag,
+// every inner "</script>" must be escaped or it prematurely truncates the outer
+// tag. JSON.stringify alone doesn't do this (it leaves "/" unescaped). Escaping
+// every forward slash as its unicode escape (matching the original bundler
+// tooling's own convention) closes that hole; it's always valid JSON and
+// round-trips through JSON.parse exactly like a literal slash would.
+function safeStringify(str) {
+  return JSON.stringify(str).replace(/\//g, '\\u002F');
+}
+
 function extractTemplate(html) {
   const markerIdx = html.indexOf(TEMPLATE_OPEN);
   if (markerIdx === -1) throw new Error('__bundler/template script tag not found in index.html');
@@ -65,7 +78,7 @@ function main() {
     return;
   }
 
-  const newJsonStrWithQuotes = JSON.stringify(newTemplate);
+  const newJsonStrWithQuotes = safeStringify(newTemplate);
   const updated = html.slice(0, openQuoteIdx) + newJsonStrWithQuotes + html.slice(closeTailIdx);
   fs.writeFileSync(INDEX_PATH, updated, 'utf-8');
   console.log(`index.html updated from data.json (${parsedData.CARDS.length} cards, ${parsedData.GENERAL_SCRIPTS.length} general topics).`);
