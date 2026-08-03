@@ -553,6 +553,122 @@
           "responseZh": "您可透過i-payment繳費平台繳交學費,並於當期帳單結帳日前申請3期0%利率的免息分期。"
         }
       ]
+    },
+    {
+      "id": "HUNL",
+      "name": "Happy Unlimited Card / Happy World Business Card (遠東快樂無限卡/快樂世界商務卡)",
+      "keywords": [
+        "快樂無限卡",
+        "快樂世界商務卡",
+        "happy unlimited card",
+        "happy world business card"
+      ],
+      "topics": [
+        {
+          "topic": "Overview",
+          "keywords": [],
+          "response": "The Happy Unlimited Card and Happy World Business Card are a premium travel and business card pairing, built around uncapped foreign-currency cash back, HAPPY GO rewards on domestic spending, and airport travel perks.",
+          "responseZh": "遠東快樂無限卡與快樂世界商務卡是主打海外消費無上限現金回饋、國內消費HAPPY GO回饋,以及機場旅遊禮遇的頂級旅遊商務卡系列。"
+        },
+        {
+          "topic": "Annual Fee",
+          "keywords": [
+            "annual fee",
+            "fee",
+            "cost",
+            "年費",
+            "費用"
+          ],
+          "response": "The primary cardholder pays NT$10,000 a year, waived the first year; supplementary cards are free. It's waived again in later years once annual spending reaches NT$300,000 or more, or with 6 or more VIP stars and auto-pay enrollment.",
+          "responseZh": "正卡持卡人年費為新台幣10,000元,首年免年費,附卡免年費。之後年度消費滿新台幣300,000元以上,或達6星以上VIP等級並加入自動扣繳,可再次免年費。"
+        },
+        {
+          "topic": "Overseas Cash Back",
+          "keywords": [
+            "overseas cashback",
+            "overseas spending",
+            "cash back abroad",
+            "foreign spending",
+            "海外現金回饋",
+            "海外回饋",
+            "海外消費"
+          ],
+          "response": "Overseas spending earns 2.5% uncapped cash back, plus an extra 1% for Japan, Korea, Singapore, Thailand, or the USA once monthly spending there exceeds NT$60,000 — up to 5% total.",
+          "responseZh": "海外消費可享2.5%無上限現金回饋,於日本、韓國、新加坡、泰國或美國當月消費超過新台幣60,000元,再加碼1%,合計最高5%。"
+        },
+        {
+          "topic": "Domestic Cash Back",
+          "keywords": [
+            "domestic cashback",
+            "domestic spending",
+            "happy go",
+            "reward",
+            "points",
+            "國內現金回饋",
+            "國內消費",
+            "回饋",
+            "點數"
+          ],
+          "response": "Domestic spending earns 1 HAPPY GO point per NT$100 spent, plus a monthly cash-back bonus once spending reaches NT$20,000, up to NT$1,000-1,500 a month depending on your account tier.",
+          "responseZh": "國內每消費新台幣100元可得1點HAPPY GO點數,當月消費滿新台幣20,000元另享現金回饋,依帳戶等級每月最高新台幣1,000至1,500元。"
+        },
+        {
+          "topic": "Airport Transfers",
+          "keywords": [
+            "airport transfer",
+            "pickup",
+            "drop off",
+            "機場接送",
+            "接送"
+          ],
+          "response": "You get up to 4 free airport transfers a year once your spending in the prior 12 months reaches NT$800,000 to NT$1,200,000, depending on your account tier.",
+          "responseZh": "近12個月消費依帳戶等級達新台幣800,000至1,200,000元,即可享每年最高4次免費機場接送。"
+        },
+        {
+          "topic": "Airport Lounge",
+          "keywords": [
+            "lounge",
+            "priority pass",
+            "貴賓室",
+            "機場貴賓室"
+          ],
+          "response": "You get up to 4 free airport lounge visits per 6-month period, once your recent spending reaches NT$10,000 or more.",
+          "responseZh": "近期消費滿新台幣10,000元以上,即可享每半年最高4次免費機場貴賓室。"
+        },
+        {
+          "topic": "Airport Parking",
+          "keywords": [
+            "airport parking"
+          ],
+          "response": "You get up to 30 free parking days at Taoyuan or Kaohsiung airport once you charge NT$25,000 or more toward an airfare purchase.",
+          "responseZh": "刷卡購買機票消費滿新台幣25,000元以上,即可享桃園或高雄機場最高30天免費停車。"
+        },
+        {
+          "topic": "Travel Insurance",
+          "keywords": [
+            "travel insurance",
+            "insurance coverage",
+            "旅遊保險",
+            "保險"
+          ],
+          "response": "Travel accident insurance covers up to NT$35 million; the Mastercard variant also includes medical coverage up to NT$3.19 million.",
+          "responseZh": "旅遊平安保險最高保障新台幣3,500萬元;萬事達卡版本另享最高新台幣319萬元的醫療保障。"
+        },
+        {
+          "topic": "Shopping & Dining",
+          "keywords": [
+            "shopping",
+            "dining",
+            "department store",
+            "golf",
+            "購物",
+            "餐飲",
+            "高爾夫"
+          ],
+          "response": "Far Eastern Department Store offers up to 9% off, select luxury hotel buffets offer a buy-one-get-one-free deal up to 24 times a month, partner restaurants offer 5% off, and golf club rates start from NT$3,230.",
+          "responseZh": "遠東百貨最高享9%折扣,指定五星級飯店自助餐每月最高24次買一送一,合作餐廳享95折優惠,高爾夫球場優惠價格自新台幣3,230元起。"
+        }
+      ]
     }
   ],
   "GENERAL_SCRIPTS": [
@@ -790,6 +906,7 @@
   "TOPIC_ZH": {
     "Overview": "總覽",
     "Annual Fee": "年費",
+    "Domestic Cash Back": "國內現金回饋",
     "Airport Transfers": "機場接送",
     "Airport Lounge": "機場貴賓室",
     "Overseas Cash Back": "海外現金回饋",
