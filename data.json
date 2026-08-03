@@ -1367,6 +1367,10 @@
     "Unrecognized topic": {
       "en": "Didn't match any topic in the script library.",
       "zh": "未比對到話術庫中任何主題。"
+    },
+    "Response validation failed": {
+      "en": "The generated reply didn't pass the grounding check against the source script, so it was blocked before playback.",
+      "zh": "系統生成的回覆未通過與話術庫的比對驗證,已於播放前攔截。"
     }
   },
   "STAGE_DEFS": [
@@ -1410,7 +1414,8 @@
     "Application status": "申請進度",
     "Non-card banking": "非信用卡業務",
     "Eligibility criteria": "申請資格",
-    "Unrecognized topic": "未辨識主題"
+    "Unrecognized topic": "未辨識主題",
+    "Response validation failed": "回覆驗證未通過"
   },
   "TOPIC_ZH": {
     "Overview": "總覽",
