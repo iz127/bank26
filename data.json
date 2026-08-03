@@ -1,0 +1,820 @@
+{
+  "CARDS": [
+    {
+      "id": "HTOP",
+      "name": "Premier Happy Card (遠東頂級快樂卡)",
+      "keywords": [
+        "頂級快樂卡",
+        "premier happy",
+        "happy card infinite",
+        "happy infinite"
+      ],
+      "topics": [
+        {
+          "topic": "Overview",
+          "keywords": [],
+          "response": "The Premier Happy Card is our flagship premium travel card, aimed at frequent international travelers and high spenders. Headline perks include unlimited airport transfers, unlimited airport lounge access, up to 3% overseas cash back, up to 30 days of free airport parking, and travel insurance up to NT$50 million.",
+          "responseZh": "遠東頂級快樂卡是我們的旗艦級頂級旅遊卡,適合經常出國旅遊及高消費的持卡人。主要優惠包括無限次機場接送、無限次機場貴賓室、最高3%海外現金回饋、最高30天免費機場停車,以及最高新台幣5,000萬元的旅遊保險。"
+        },
+        {
+          "topic": "Annual Fee",
+          "keywords": [
+            "annual fee",
+            "fee",
+            "cost",
+            "年費",
+            "費用"
+          ],
+          "response": "I don't have the current annual fee for this card confirmed — let me connect you with a representative for the exact amount. There is a renewal cash-back bonus of up to NT$10,000 available for returning cardholders.",
+          "responseZh": "目前我無法確認此卡的年費金額,讓我為您轉接客服人員確認正確金額。續卡持卡人另有最高新台幣10,000元的續卡現金回饋。"
+        },
+        {
+          "topic": "Airport Transfers",
+          "keywords": [
+            "airport transfer",
+            "pickup",
+            "drop off",
+            "limo",
+            "car service",
+            "機場接送",
+            "接送"
+          ],
+          "response": "Unlimited free airport transfers are available once you charge a full international airfare or at least 80% of a tour package, for a minimum transaction of NT$20,000, up to 2 uses per trip. Vehicles are Benz or Lexus-class sedans, and bookings need at least 3 business days' notice.",
+          "responseZh": "只要您刷卡支付全額國際機票或至少80%的旅遊團費,單筆消費滿新台幣20,000元,即可享無限次免費機場接送,每趟行程最多使用2次。車輛為Benz或Lexus等級房車,需提前至少3個工作天預約。"
+        },
+        {
+          "topic": "Airport Lounge",
+          "keywords": [
+            "lounge",
+            "priority pass",
+            "貴賓室",
+            "機場貴賓室"
+          ],
+          "response": "You get unlimited worldwide airport lounge visits through Priority Pass or U.FIRST, once you charge a full international airfare or at least 80% of a tour package, up to 2 visits per trip. If you don't meet the spending threshold, exceed the 2-visit limit, or bring a guest, the bank charges US$27 per person per use, billed to the following month's statement. Membership itself is free to apply for by calling customer service, and the physical card arrives within 7 business days, valid for 1 year.",
+          "responseZh": "只要您刷卡支付全額國際機票或至少80%的旅遊團費,即可透過Priority Pass或U.FIRST無限次使用全球機場貴賓室,每趟行程最多2次。若未達消費門檻、超過2次使用限制,或有陪同賓客,銀行將於次月帳單按每人每次收取US$27。會員卡申請免費,致電客服即可申請,約7個工作天內寄出實體卡,有效期1年。"
+        },
+        {
+          "topic": "Overseas Cash Back",
+          "keywords": [
+            "overseas cashback",
+            "overseas spending",
+            "cash back abroad",
+            "foreign spending",
+            "海外現金回饋",
+            "海外回饋",
+            "海外消費"
+          ],
+          "response": "Overseas spending earns up to 3% cash back across three stackable, monthly-registered tiers, capped at NT$9,000 per household per month for the base tier, with additional quarterly and regional bonuses.",
+          "responseZh": "海外消費最高可享3%現金回饋,分三個可疊加、需每月登錄的級距,基本級距每戶每月上限新台幣9,000元,另有季度及地區加碼回饋。"
+        },
+        {
+          "topic": "Airport Parking",
+          "keywords": [
+            "airport parking",
+            "free parking days",
+            "機場停車"
+          ],
+          "response": "You get up to 30 free parking days per airport location once you charge a full airfare, 80% of a tour package, or NT$25,000 or more in general spending within the prior two months.",
+          "responseZh": "只要您刷卡支付全額機票、80%旅遊團費,或近兩個月一般消費滿新台幣25,000元,即可享每個機場據點最高30天免費停車。"
+        },
+        {
+          "topic": "Travel Insurance",
+          "keywords": [
+            "travel insurance",
+            "insurance coverage",
+            "旅遊保險",
+            "保險"
+          ],
+          "response": "Coverage runs up to NT$50 million for the cardholder and eligible dependents, when the full public-transport fare or at least 80% of a tour package is charged to the card.",
+          "responseZh": "只要刷卡支付全額大眾運輸票款或至少80%旅遊團費,持卡人及符合資格的家屬最高可享新台幣5,000萬元保障。"
+        },
+        {
+          "topic": "Lifestyle & Dining",
+          "keywords": [
+            "dining",
+            "shangri-la",
+            "golf",
+            "lifestyle",
+            "restaurant",
+            "餐飲",
+            "高爾夫",
+            "購物優惠"
+          ],
+          "response": "You also get Far Eastern Department Store and City'super shopping privileges, Shangri-La dining perks, golf course offers, free downtown parking, and roadside assistance. HAPPY GO points don't expire while the card is active.",
+          "responseZh": "此外還享有遠東百貨及City'super購物優惠、香格里拉餐飲禮遇、高爾夫球場優惠、市區免費停車,以及道路救援服務。卡片有效期間內,HAPPY GO點數不會過期。"
+        }
+      ]
+    },
+    {
+      "id": "HRED",
+      "name": "Happy Card (遠東快樂信用卡)",
+      "keywords": [
+        "遠東快樂信用卡",
+        "快樂信用卡",
+        "happy credit card",
+        "happy card"
+      ],
+      "topics": [
+        {
+          "topic": "Overview",
+          "keywords": [],
+          "response": "The Happy Card is our everyday cash-back card, built around daily spending categories like department stores, supermarkets, clothing, cosmetics, online shopping, and LINE Pay.",
+          "responseZh": "遠東快樂信用卡是我們的日常現金回饋卡,聚焦於百貨公司、超市、服飾、美妝、網路購物及LINE Pay等日常消費類別。"
+        },
+        {
+          "topic": "Annual Fee",
+          "keywords": [
+            "annual fee",
+            "fee",
+            "cost",
+            "年費",
+            "費用"
+          ],
+          "response": "I don't have the current annual fee for this card confirmed — let me connect you with a representative for the exact amount.",
+          "responseZh": "目前我無法確認此卡的年費金額,讓我為您轉接客服人員確認正確金額。"
+        },
+        {
+          "topic": "Daily Cash Back",
+          "keywords": [
+            "daily cashback",
+            "cash back",
+            "cashback",
+            "reward",
+            "points",
+            "現金回饋",
+            "回饋",
+            "點數"
+          ],
+          "response": "You can earn up to 5% cash back on daily spending categories including LINE Pay, capped at NT$300 per household per month with monthly registration required, plus a separate bonus once monthly spending reaches NT$15,000.",
+          "responseZh": "日常消費類別(含LINE Pay)最高可享5%現金回饋,每戶每月上限新台幣300元,需每月登錄;另外當月消費滿新台幣15,000元還有額外回饋。"
+        },
+        {
+          "topic": "Shopping & Dining",
+          "keywords": [
+            "shopping",
+            "dining",
+            "sogo",
+            "department store",
+            "restaurant",
+            "購物",
+            "餐飲",
+            "百貨"
+          ],
+          "response": "At SOGO you can earn up to 2x HAPPY GO points, plus 3x on cosmetics purchases of NT$3,000 or more. Far Eastern Department Store offers up to 9% off plus free parking, and several partner restaurants offer 15 to 18% off.",
+          "responseZh": "於SOGO消費最高可享2倍HAPPY GO點數,美妝品消費滿新台幣3,000元以上可享3倍點數。遠東百貨最高享9%折扣並附贈免費停車,多家合作餐廳可享15%至18%折扣。"
+        },
+        {
+          "topic": "Overseas Cash Back",
+          "keywords": [
+            "overseas cashback",
+            "overseas spending",
+            "foreign spending",
+            "海外消費",
+            "海外回饋"
+          ],
+          "response": "The standard tier earns 3% cash back on overseas spending, capped at NT$9,000 a month, with monthly registration required, plus a regional bonus for Japan, Korea, Singapore, Thailand, or the USA.",
+          "responseZh": "基本級距海外消費可享3%現金回饋,每月上限新台幣9,000元,需每月登錄;於日本、韓國、新加坡、泰國或美國消費另有地區加碼回饋。"
+        },
+        {
+          "topic": "Travel Insurance",
+          "keywords": [
+            "travel insurance",
+            "insurance coverage",
+            "旅遊保險",
+            "保險"
+          ],
+          "response": "Coverage runs up to NT$20 million total when the full public transport fare or 80% or more of a tour package is charged to the card.",
+          "responseZh": "只要刷卡支付全額大眾運輸票款或80%以上旅遊團費,總保障最高可達新台幣2,000萬元。"
+        },
+        {
+          "topic": "Transportation",
+          "keywords": [
+            "transport",
+            "easycard",
+            "high-speed rail",
+            "taiwan rail",
+            "etag",
+            "parking",
+            "交通",
+            "悠遊卡",
+            "高鐵",
+            "停車"
+          ],
+          "response": "EasyCard auto-reload earns 5% cash back, High-Speed Rail and Taiwan Rail spending earns 3% once monthly spending hits NT$3,000, and there are eTag and private-parking benefits as well.",
+          "responseZh": "悠遊卡自動加值可享5%現金回饋,高鐵及台鐵消費當月滿新台幣3,000元可享3%回饋,另有eTag及特約停車場優惠。"
+        }
+      ]
+    },
+    {
+      "id": "NCTOP",
+      "name": "World Card / Infinity Card (世界卡/無限卡)",
+      "keywords": [
+        "世界卡",
+        "無限卡",
+        "world card",
+        "infinity card",
+        "unlimited card"
+      ],
+      "topics": [
+        {
+          "topic": "Overview",
+          "keywords": [],
+          "response": "The World Card and Infinity Card are a premium Far Eastern Department Store Group co-branded travel and rewards card pairing, with most benefits shared between the two variants.",
+          "responseZh": "世界卡與無限卡是遠東百貨集團聯名的頂級旅遊回饋卡系列,兩種卡別的優惠大多相通。"
+        },
+        {
+          "topic": "Annual Fee",
+          "keywords": [
+            "annual fee",
+            "fee",
+            "cost",
+            "年費",
+            "費用"
+          ],
+          "response": "The primary cardholder pays NT$10,000 a year; supplementary cards are free. It's waived the first year, and waived again in later years if annual spending reaches NT$300,000 or more.",
+          "responseZh": "正卡持卡人年費為新台幣10,000元,附卡免年費。首年免年費,之後年度消費滿新台幣300,000元以上可再次免年費。"
+        },
+        {
+          "topic": "HAPPY GO Rewards",
+          "keywords": [
+            "reward",
+            "points",
+            "happy go",
+            "cashback",
+            "點數",
+            "回饋"
+          ],
+          "response": "You earn 1 HAPPY GO point per NT$100 spent, up to 2 points at partner merchants, and points from general spending don't expire.",
+          "responseZh": "每消費新台幣100元可得1點HAPPY GO點數,於合作商家最高可得2點,一般消費所得點數不會過期。"
+        },
+        {
+          "topic": "Dining",
+          "keywords": [
+            "dining",
+            "shangri-la",
+            "restaurant",
+            "餐飲"
+          ],
+          "response": "Dining perks include a 'two diners, one free' offer at Far Eastern Shangri-La cafés, and 10 to 20% off at several partner restaurants.",
+          "responseZh": "餐飲優惠包括遠東香格里拉咖啡廳「兩人同行一人免費」,以及多家合作餐廳10%至20%折扣。"
+        },
+        {
+          "topic": "Golf",
+          "keywords": [
+            "golf",
+            "高爾夫"
+          ],
+          "response": "Spending NT$30,000 or more in a month earns one free weekday golf round the following month, and NT$60,000 or more earns two rounds, at select courses.",
+          "responseZh": "當月消費滿新台幣30,000元,次月可享1場平日免費高爾夫球局;滿新台幣60,000元可享2場,限指定球場。"
+        },
+        {
+          "topic": "Travel Insurance",
+          "keywords": [
+            "travel insurance",
+            "insurance coverage",
+            "旅遊保險",
+            "保險"
+          ],
+          "response": "International travel insurance covers medical and emergency evacuation up to NT$3.19 million, with hospital daily allowances and COVID-19 quarantine costs also covered, for trips registered before departure.",
+          "responseZh": "國際旅遊保險最高保障新台幣319萬元的醫療與緊急救援費用,並涵蓋住院日額與COVID-19隔離費用,需於出發前完成登錄。"
+        },
+        {
+          "topic": "Airport Lounge",
+          "keywords": [
+            "lounge",
+            "priority pass",
+            "貴賓室",
+            "機場貴賓室"
+          ],
+          "response": "You get Priority Pass or U.FIRST lounge access, 4 uses per period (primary and supplementary combined), once any of your prior 3 monthly statements shows NT$10,000 or more in general spending. If you don't meet that threshold, exceed the 4-use limit, or bring a guest, the bank charges US$27 per person per use, billed to the following month's statement. Apply by calling customer service; the card is mailed within 7 business days and is valid for 1 year.",
+          "responseZh": "只要近3期任一帳單一般消費滿新台幣10,000元,即可享Priority Pass或U.FIRST機場貴賓室,每期可使用4次(正卡及附卡合計)。若未達消費門檻、超過4次使用限制,或有陪同賓客,銀行將於次月帳單按每人每次收取US$27。致電客服即可申請,約7個工作天內寄出卡片,有效期1年。"
+        },
+        {
+          "topic": "Airport Transfers",
+          "keywords": [
+            "airport transfer",
+            "pickup",
+            "drop off",
+            "機場接送"
+          ],
+          "response": "Free airport transfers are available on several routes, with a bonus of 2 additional free transfers once cumulative annual spending reaches NT$180,000.",
+          "responseZh": "多條路線提供免費機場接送,累計年度消費滿新台幣180,000元可再享2趟加碼免費接送。"
+        },
+        {
+          "topic": "Overseas Cash Back",
+          "keywords": [
+            "overseas cashback",
+            "overseas spending",
+            "foreign spending",
+            "海外消費",
+            "海外回饋"
+          ],
+          "response": "Overseas spending earns 1.5% base cash back plus an extra 1% for Japan, Korea, Singapore, Thailand, or the USA once monthly spending there hits NT$60,000 — up to 2.5% total.",
+          "responseZh": "海外消費基本可享1.5%現金回饋,於日本、韓國、新加坡、泰國或美國當月消費滿新台幣60,000元,再加碼1%,合計最高2.5%。"
+        }
+      ]
+    },
+    {
+      "id": "HWCARD",
+      "name": "LeXing Card (遠東樂行卡)",
+      "keywords": [
+        "樂行卡",
+        "lexing card",
+        "le xing card",
+        "happy travel card"
+      ],
+      "topics": [
+        {
+          "topic": "Overview",
+          "keywords": [],
+          "response": "The LeXing Card is a mid-tier card for frequent travelers and commuters, organized around lifestyle rewards, transportation, and shopping benefits.",
+          "responseZh": "遠東樂行卡是為經常旅遊及通勤族設計的中階卡片,主打生活回饋、交通及購物三大優惠面向。"
+        },
+        {
+          "topic": "Annual Fee",
+          "keywords": [
+            "annual fee",
+            "fee",
+            "cost",
+            "年費",
+            "費用"
+          ],
+          "response": "It's NT$2,000 a year for the primary cardholder, with supplementary cards free — waived the first year, and waived again if annual spending reaches NT$60,000 or more, or you make 12 or more transactions in the year.",
+          "responseZh": "正卡持卡人年費為新台幣2,000元,附卡免年費。首年免年費,之後年度消費滿新台幣60,000元以上或年度交易滿12筆可再次免年費。"
+        },
+        {
+          "topic": "General Cash Back",
+          "keywords": [
+            "reward",
+            "points",
+            "cashback",
+            "cash back",
+            "點數",
+            "回饋"
+          ],
+          "response": "You get uncapped 1% cash back on domestic spending, 2% on overseas spending, and 1 HAPPY GO point per NT$100 spent, once monthly statement spending reaches NT$3,000.",
+          "responseZh": "國內消費享無上限1%現金回饋,海外消費2%,當月帳單消費滿新台幣3,000元,每消費新台幣100元可得1點HAPPY GO點數。"
+        },
+        {
+          "topic": "Transportation Cash Back",
+          "keywords": [
+            "transport",
+            "fuel",
+            "gas",
+            "taxi",
+            "airline",
+            "easycard",
+            "交通",
+            "加油",
+            "計程車",
+            "機票"
+          ],
+          "response": "Up to 3% cash back applies to fuel, EasyCard auto-reload, taxis, e-scooters and bikes, airline tickets, and travel booking sites, capped at NT$300 per household per month.",
+          "responseZh": "加油、悠遊卡自動加值、計程車、電動機車與單車、機票及訂票網站消費最高享3%現金回饋,每戶每月上限新台幣300元。"
+        },
+        {
+          "topic": "Auto & Insurance",
+          "keywords": [
+            "insurance",
+            "auto",
+            "maintenance",
+            "tax payment",
+            "保養",
+            "保險",
+            "稅"
+          ],
+          "response": "Auto maintenance earns up to 2% cash back quarterly, insurance premiums earn up to 3.5% cash back or 0% installments, and designated tax payments earn up to 0.5% cash back.",
+          "responseZh": "汽車保養每季最高享2%現金回饋,保險費最高享3.5%現金回饋或0%分期,指定稅款最高享0.5%現金回饋。"
+        },
+        {
+          "topic": "Parking & Roadside",
+          "keywords": [
+            "parking",
+            "car wash",
+            "roadside",
+            "tow",
+            "停車",
+            "洗車",
+            "道路救援"
+          ],
+          "response": "You get free parking once monthly spending hits NT$15,000, a free monthly car wash once spending hits NT$8,000, and two free 50-kilometer roadside tows once NT$20,000 has been spent in any of the prior 3 statements.",
+          "responseZh": "當月消費滿新台幣15,000元享免費停車,滿新台幣8,000元每月享1次免費洗車,近3期任一帳單消費滿新台幣20,000元可享2次50公里免費道路救援拖吊。"
+        },
+        {
+          "topic": "Shopping",
+          "keywords": [
+            "shopping",
+            "department store",
+            "購物",
+            "百貨"
+          ],
+          "response": "Far Eastern Department Store offers up to 9% off plus free parking hours, and City'super offers 5% off.",
+          "responseZh": "遠東百貨最高享9%折扣並附贈免費停車時數,City'super享95折優惠。"
+        }
+      ]
+    },
+    {
+      "id": "ETAG",
+      "name": "eTag Card (eTag聯名卡)",
+      "keywords": [
+        "etag聯名卡",
+        "etag card",
+        "etag co-branded"
+      ],
+      "topics": [
+        {
+          "topic": "Overview",
+          "keywords": [],
+          "response": "The eTag Card is a co-branded card built around driving, tolls, and parking.",
+          "responseZh": "eTag聯名卡是圍繞行車、通行費與停車優惠設計的聯名卡片。"
+        },
+        {
+          "topic": "Annual Fee",
+          "keywords": [
+            "annual fee",
+            "fee",
+            "cost",
+            "年費",
+            "費用"
+          ],
+          "response": "I don't have the current annual fee for this card confirmed — let me connect you with a representative for the exact amount.",
+          "responseZh": "目前我無法確認此卡的年費金額,讓我為您轉接客服人員確認正確金額。"
+        },
+        {
+          "topic": "Smart Parking",
+          "keywords": [
+            "smart parking",
+            "parking",
+            "智慧停車",
+            "停車"
+          ],
+          "response": "Free eTag smart parking gives you 5 uses a month, once daily, 2 hours per session, once monthly general spending hits NT$15,000, with a separate benefit at partner private parking lots.",
+          "responseZh": "當月一般消費滿新台幣15,000元,可享eTag智慧停車每月5次免費使用,每日1次、每次2小時,特約民營停車場另有獨立優惠。"
+        },
+        {
+          "topic": "Airport Parking",
+          "keywords": [
+            "airport parking"
+          ],
+          "response": "You get up to 7 free days per session at Taoyuan or Kaohsiung airport, 2 sessions per airport, once you charge a full international ticket, 80% of a tour package, or NT$25,000 or more in general spending.",
+          "responseZh": "只要刷卡支付全額國際機票、80%旅遊團費,或一般消費滿新台幣25,000元,即可於桃園或高雄機場享每次最高7天免費停車,每機場2次。"
+        },
+        {
+          "topic": "eTag POINTS",
+          "keywords": [
+            "etag points",
+            "toll",
+            "etag點數",
+            "通行費"
+          ],
+          "response": "Every NT$400 of successful eTag auto-reload or smart-parking fees paid earns 1 eTag POINT, worth NT$1, redeemable against parking fees or converted to eTag stored value.",
+          "responseZh": "每成功儲值eTag或繳納智慧停車費滿新台幣400元,可得1點eTag POINT,每點折抵新台幣1元,可折抵停車費或轉換為eTag儲值金。"
+        },
+        {
+          "topic": "Shopping",
+          "keywords": [
+            "shopping",
+            "department store",
+            "taipei 101",
+            "購物",
+            "百貨",
+            "台北101"
+          ],
+          "response": "Far Eastern Department Store offers up to 10% off plus free parking hours, and Taipei 101 offers free parking hours with qualifying same-day spending.",
+          "responseZh": "遠東百貨最高享9折優惠並附贈免費停車時數,台北101於當日達指定消費金額可享免費停車時數。"
+        }
+      ]
+    },
+    {
+      "id": "YA",
+      "name": "Happy+ Family Card (遠東樂家＋卡)",
+      "keywords": [
+        "樂家＋卡",
+        "樂家+卡",
+        "happy+ family",
+        "happy family card",
+        "ya+ card"
+      ],
+      "topics": [
+        {
+          "topic": "Overview",
+          "keywords": [],
+          "response": "The Happy+ Family Card is marketed as our first credit card focused on parent-child benefits, covering cash back, family perks, domestic shopping, travel, and financial-product perks.",
+          "responseZh": "遠東樂家＋卡是我們首張以親子優惠為主打的信用卡,涵蓋現金回饋、家庭禮遇、國內購物、旅遊及金融商品優惠。"
+        },
+        {
+          "topic": "Annual Fee",
+          "keywords": [
+            "annual fee",
+            "fee",
+            "cost",
+            "年費",
+            "費用"
+          ],
+          "response": "I don't have the current annual fee or waiver conditions for this card confirmed — let me connect you with a representative for the exact details.",
+          "responseZh": "目前我無法確認此卡的年費金額或免年費條件,讓我為您轉接客服人員確認詳細內容。"
+        },
+        {
+          "topic": "Relax+ Cash Back",
+          "keywords": [
+            "reward",
+            "cashback",
+            "cash back",
+            "points",
+            "回饋",
+            "點數"
+          ],
+          "response": "Once monthly new spending reaches NT$26,000, the primary cardholder can register for either a NT$400 cash credit or a free beauty course, posted as a statement credit by the end of the following month.",
+          "responseZh": "當月新增消費滿新台幣26,000元,正卡持卡人可登錄選擇新台幣400元現金回饋或免費美容課程,於次月底前以帳單折抵入帳。"
+        },
+        {
+          "topic": "Children’s Floor Bonus",
+          "keywords": [
+            "children",
+            "kids",
+            "baby",
+            "toys",
+            "兒童",
+            "親子"
+          ],
+          "response": "Spending at designated children's-floor counters at Far Eastern Chengcheng Mall earns 4x points, plus an extra 2x posted to your HAPPY GO account each billing cycle.",
+          "responseZh": "於遠東誠品成功店指定兒童樓層櫃位消費可享4倍點數,並於每期帳單另加碼2倍點數存入HAPPY GO帳戶。"
+        },
+        {
+          "topic": "Tuition Installments",
+          "keywords": [
+            "tuition",
+            "school fee",
+            "education",
+            "學費",
+            "教育"
+          ],
+          "response": "You can pay tuition through our i-payment platform and apply for 3 interest-free installment periods at 0% fees before the current billing cycle closes.",
+          "responseZh": "您可透過i-payment繳費平台繳交學費,並於當期帳單結帳日前申請3期0%利率的免息分期。"
+        }
+      ]
+    }
+  ],
+  "GENERAL_SCRIPTS": [
+    {
+      "topic": "Dining Privileges",
+      "keywords": [
+        "dining privilege",
+        "dining discount",
+        "dining deal",
+        "dining perk",
+        "2 diners",
+        "two diners",
+        "free dining",
+        "discount dining",
+        "餐飲優惠",
+        "餐廳優惠",
+        "用餐優惠"
+      ],
+      "response": "Three of our cards carry dining perks: the Premier Happy Card includes Shangri-La dining and golf-course dining privileges; the Happy Card offers a 'one free with 2+ diners' deal at Far Eastern Shangri-La plus 15-18% off partner restaurants; and the World Card / Infinity Card offers a 'two diners, one free' deal at Far Eastern Shangri-La cafés plus 10-20% off partner restaurants. The LeXing, eTag, and Happy+ Family cards don't carry dedicated dining perks.",
+      "responseZh": "有三張卡享有餐飲優惠:頂級快樂卡包含香格里拉餐飲及高爾夫球場餐飲禮遇;快樂信用卡於遠東香格里拉推出「2人同行1人免費」優惠,並享合作餐廳15%至18%折扣;世界卡/無限卡於遠東香格里拉咖啡廳提供「兩人同行一人免費」優惠,並享合作餐廳10%至20%折扣。樂行卡、eTag聯名卡及樂家＋卡則無專屬餐飲優惠。"
+    },
+    {
+      "topic": "HAPPY GO Points",
+      "keywords": [
+        "happy go",
+        "points program",
+        "loyalty program",
+        "happy go點數",
+        "紅利點數",
+        "點數計畫"
+      ],
+      "response": "HAPPY GO is our points loyalty program, integrated into most of our credit cards. Points are earned per dollar spent — rates vary by card and merchant — and on most cards HAPPY GO points don't expire.",
+      "responseZh": "HAPPY GO是我們的點數會員計畫,整合於大多數信用卡中。消費即可累積點數,回饋率依卡別及商家而異,多數卡片的HAPPY GO點數不會過期。"
+    },
+    {
+      "topic": "How to Apply",
+      "keywords": [
+        "how do i apply",
+        "apply for a card",
+        "application process",
+        "sign up",
+        "how to apply",
+        "如何申請",
+        "申請信用卡",
+        "怎麼辦卡",
+        "辦卡流程"
+      ],
+      "response": "You can apply for any of our credit cards online through our application portal, or in person at a branch. Existing customers can also apply through our self-service channels.",
+      "responseZh": "您可以透過線上申辦平台申請任一信用卡,或親臨分行辦理。既有客戶亦可透過自助服務管道申請。"
+    },
+    {
+      "topic": "Card List",
+      "keywords": [
+        "type of card",
+        "types of card",
+        "which cards",
+        "card options",
+        "kinds of credit card",
+        "what cards",
+        "what credit cards",
+        "有哪些信用卡",
+        "信用卡種類",
+        "卡片選擇"
+      ],
+      "response": "We offer several categories of credit cards: everyday cash-back cards like the Happy Card, premium travel cards like the Premier Happy Card and the World Card, a family-focused card, the Happy+ Family Card, a travel and commuter card, the LeXing Card, and co-branded cards such as the eTag Card. Which one would you like to know more about?",
+      "responseZh": "我們提供多種信用卡類別:日常現金回饋卡如快樂信用卡、頂級旅遊卡如頂級快樂卡與世界卡、家庭導向的樂家＋卡、旅遊通勤導向的樂行卡,以及eTag聯名卡等聯名卡片。請問您想了解哪一張卡呢?"
+    }
+  ],
+  "APR_KEYWORDS": [
+    "interest rate",
+    "apr",
+    "revolving credit rate",
+    "cash advance fee",
+    "利率",
+    "循環利率",
+    "預借現金手續費"
+  ],
+  "APR_RESPONSE": "Our revolving credit interest rate ranges from 6.74% to 14.99%, depending on the cardholder's credit profile. Cash advances carry a separate fee of 3% of the amount withdrawn plus NT$150.",
+  "APR_RESPONSE_ZH": "我們的循環信用利率介於6.74%至14.99%之間,實際利率依持卡人信用狀況而定。預借現金另收取提領金額3%加新台幣150元的手續費。",
+  "OOS": [
+    {
+      "label": "Account balance",
+      "keywords": [
+        "balance",
+        "credit limit",
+        "餘額",
+        "信用額度"
+      ]
+    },
+    {
+      "label": "Lost/stolen card",
+      "keywords": [
+        "lost my card",
+        "stolen",
+        "lost card",
+        "卡片遺失",
+        "卡不見",
+        "卡被盜刷"
+      ]
+    },
+    {
+      "label": "Dispute a charge",
+      "keywords": [
+        "dispute",
+        "charge on my",
+        "爭議款項",
+        "消費爭議"
+      ]
+    },
+    {
+      "label": "Cancel card",
+      "keywords": [
+        "cancel my card",
+        "close my account",
+        "取消信用卡",
+        "銷卡",
+        "結清帳戶"
+      ]
+    },
+    {
+      "label": "Application status",
+      "keywords": [
+        "application status",
+        "status of my application",
+        "申請進度",
+        "審核狀態"
+      ]
+    },
+    {
+      "label": "Non-card banking",
+      "keywords": [
+        "mortgage",
+        "loan",
+        "checking account",
+        "savings account",
+        "房屋貸款",
+        "信用貸款",
+        "存款帳戶",
+        "開戶"
+      ]
+    },
+    {
+      "label": "Eligibility criteria",
+      "keywords": [
+        "eligib",
+        "qualify",
+        "income requirement",
+        "credit score",
+        "minimum credit",
+        "who can apply",
+        "資格",
+        "是否符合",
+        "收入條件",
+        "信用分數"
+      ]
+    }
+  ],
+  "OOS_DESCRIPTIONS": {
+    "Account balance": {
+      "en": "Asked about balance or credit limit — needs an account lookup, outside the FAQ script library.",
+      "zh": "詢問餘額或信用額度——需查詢帳戶資料,非話術庫涵蓋範圍。"
+    },
+    "Lost/stolen card": {
+      "en": "Card reported lost or stolen — needs immediate suspension, handled by a live representative.",
+      "zh": "卡片遺失或遭盜刷通報——需立即停卡處理,由客服人員協助。"
+    },
+    "Dispute a charge": {
+      "en": "Disputing a transaction — needs a case investigation outside the FAQ script library.",
+      "zh": "對交易提出爭議——需啟動調查程序,非話術庫涵蓋範圍。"
+    },
+    "Cancel card": {
+      "en": "Wants to cancel a card or close an account — needs identity verification and account action.",
+      "zh": "欲取消卡片或結清帳戶——需身分驗證及帳戶操作。"
+    },
+    "Application status": {
+      "en": "Asking about a pending application — needs a lookup in the origination system.",
+      "zh": "詢問申請進度——需查詢核卡系統中的案件狀態。"
+    },
+    "Non-card banking": {
+      "en": "About loans, mortgages, or deposit accounts — outside the credit-card FAQ scope.",
+      "zh": "關於貸款、房貸或存款帳戶——非信用卡FAQ範圍。"
+    },
+    "Eligibility criteria": {
+      "en": "Asking whether they personally qualify — needs a credit assessment, not a general FAQ answer.",
+      "zh": "詢問個人是否符合資格——需信用評估,非一般FAQ可回答。"
+    },
+    "Unrecognized topic": {
+      "en": "Didn't match any topic in the script library.",
+      "zh": "未比對到話術庫中任何主題。"
+    }
+  },
+  "STAGE_DEFS": [
+    {
+      "id": "audio",
+      "label": "Audio capture",
+      "ms": 40
+    },
+    {
+      "id": "stt",
+      "label": "Speech-to-text",
+      "ms": 50
+    },
+    {
+      "id": "llm",
+      "label": "Intent + generation",
+      "ms": 80
+    },
+    {
+      "id": "validate",
+      "label": "Output validation",
+      "ms": 20
+    },
+    {
+      "id": "tts",
+      "label": "Text-to-speech",
+      "ms": 60
+    }
+  ],
+  "QUICK_PROMPTS": [
+    "What credit cards do you offer?",
+    "What's the annual fee on the World Card?",
+    "What are the rewards on the LeXing Card, and can you also check my balance?",
+    "What's the minimum credit score to qualify?"
+  ],
+  "OOS_LABEL_ZH": {
+    "Account balance": "帳戶餘額",
+    "Lost/stolen card": "卡片遺失/被盜",
+    "Dispute a charge": "帳款爭議",
+    "Cancel card": "取消卡片",
+    "Application status": "申請進度",
+    "Non-card banking": "非信用卡業務",
+    "Eligibility criteria": "申請資格",
+    "Unrecognized topic": "未辨識主題"
+  },
+  "TOPIC_ZH": {
+    "Overview": "總覽",
+    "Annual Fee": "年費",
+    "Airport Transfers": "機場接送",
+    "Airport Lounge": "機場貴賓室",
+    "Overseas Cash Back": "海外現金回饋",
+    "Airport Parking": "機場停車",
+    "Travel Insurance": "旅遊保險",
+    "Lifestyle & Dining": "生活餐飲",
+    "Daily Cash Back": "日常現金回饋",
+    "Shopping & Dining": "購物餐飲",
+    "Transportation": "交通",
+    "HAPPY GO Rewards": "HAPPY GO 回饋",
+    "Dining": "餐飲",
+    "Golf": "高爾夫",
+    "General Cash Back": "一般現金回饋",
+    "Transportation Cash Back": "交通現金回饋",
+    "Auto & Insurance": "汽車與保險",
+    "Parking & Roadside": "停車與道路救援",
+    "Shopping": "購物",
+    "Smart Parking": "智慧停車",
+    "eTag POINTS": "eTag 點數",
+    "Relax+ Cash Back": "Relax+ 現金回饋",
+    "Children’s Floor Bonus": "兒童樓層加碼",
+    "Tuition Installments": "學費分期",
+    "Dining Privileges": "餐飲優惠",
+    "HAPPY GO Points": "HAPPY GO 點數",
+    "How to Apply": "如何申請",
+    "Card List": "卡片列表"
+  }
+}
