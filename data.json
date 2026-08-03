@@ -669,6 +669,515 @@
           "responseZh": "遠東百貨最高享9%折扣,指定五星級飯店自助餐每月最高24次買一送一,合作餐廳享95折優惠,高爾夫球場優惠價格自新台幣3,230元起。"
         }
       ]
+    },
+    {
+      "id": "HGTOP",
+      "name": "HAPPY GO Premium Card (遠東HAPPY GO頂級卡)",
+      "keywords": [
+        "happy go頂級卡",
+        "遠東happy go頂級卡",
+        "happy go premium card"
+      ],
+      "topics": [
+        {
+          "topic": "Overview",
+          "keywords": [],
+          "response": "The HAPPY GO Premium Card is a premium rewards card built around HAPPY GO points, overseas cash back, airport travel perks, and Shangri-La hotel and dining privileges.",
+          "responseZh": "遠東HAPPY GO頂級卡是主打HAPPY GO點數、海外現金回饋、機場旅遊禮遇,以及香格里拉飯店與餐飲優惠的頂級回饋卡。"
+        },
+        {
+          "topic": "Annual Fee",
+          "keywords": [
+            "annual fee",
+            "fee",
+            "cost",
+            "年費",
+            "費用"
+          ],
+          "response": "The standard plan is NT$12,000 a year with a NT$20,000 value voucher package rebate; the premium plan is NT$15,000 with a NT$25,000 rebate but requires a supplementary card application. Supplementary cards themselves have a lifetime fee waiver.",
+          "responseZh": "標準方案年費新台幣12,000元,並回饋新台幣20,000元等值禮遇package;頂級方案年費新台幣15,000元,回饋新台幣25,000元等值package,但須同時申辦附卡。附卡本身終身免年費。"
+        },
+        {
+          "topic": "HAPPY GO Rewards",
+          "keywords": [
+            "happy go",
+            "reward",
+            "points",
+            "點數",
+            "回饋"
+          ],
+          "response": "You earn 1 HAPPY GO point per NT$100 spent, up to 2 points at partner merchants, and points don't expire.",
+          "responseZh": "每消費新台幣100元可得1點HAPPY GO點數,於合作商家最高可得2點,點數不會過期。"
+        },
+        {
+          "topic": "Overseas Cash Back",
+          "keywords": [
+            "overseas cashback",
+            "overseas spending",
+            "cash back abroad",
+            "foreign spending",
+            "海外現金回饋",
+            "海外回饋",
+            "海外消費"
+          ],
+          "response": "Spending in Japan, Korea, Singapore, Thailand, or the USA earns up to 1% cash back once monthly spending there reaches NT$60,000 or more.",
+          "responseZh": "於日本、韓國、新加坡、泰國或美國消費,當月消費滿新台幣60,000元以上,最高可享1%現金回饋。"
+        },
+        {
+          "topic": "Airport Lounge",
+          "keywords": [
+            "lounge",
+            "priority pass",
+            "貴賓室",
+            "機場貴賓室"
+          ],
+          "response": "You get 4 free Priority Pass or U.FIRST airport lounge visits a year, once you've spent NT$10,000 or more in the prior 3 months.",
+          "responseZh": "近3個月消費滿新台幣10,000元以上,即可享每年4次免費Priority Pass或U.FIRST機場貴賓室。"
+        },
+        {
+          "topic": "Airport Parking",
+          "keywords": [
+            "airport parking"
+          ],
+          "response": "You get up to 30 free parking days at Taoyuan and 30 at Kaohsiung airport when you purchase a full-price ticket or tour package over NT$25,000.",
+          "responseZh": "購買全額機票或旅遊團費滿新台幣25,000元,即可享桃園機場最高30天、高雄機場最高30天的免費停車。"
+        },
+        {
+          "topic": "Travel Insurance",
+          "keywords": [
+            "travel insurance",
+            "insurance coverage",
+            "旅遊保險",
+            "保險"
+          ],
+          "response": "Travel accident insurance covers up to NT$35 million, plus medical coverage up to NT$1 million.",
+          "responseZh": "旅遊平安保險最高保障新台幣3,500萬元,另享最高新台幣100萬元醫療保障。"
+        },
+        {
+          "topic": "Dining & Hotel",
+          "keywords": [
+            "dining",
+            "shangri-la",
+            "hotel",
+            "餐飲",
+            "飯店"
+          ],
+          "response": "The annual fee package includes Shangri-La hotel vouchers, dining discounts of 75 to 82% off at select restaurants, a NT$2,000 accommodation credit, and massage vouchers.",
+          "responseZh": "年費package包含香格里拉飯店禮券、指定餐廳75折至82折優惠、新台幣2,000元住宿抵用金,以及按摩禮券。"
+        }
+      ]
+    },
+    {
+      "id": "CESTMOI",
+      "name": "C'est Moi Card (遠東C'est Moi我的卡)",
+      "keywords": [
+        "c'est moi我的卡",
+        "cest moi我的卡",
+        "c'est moi card",
+        "cest moi card"
+      ],
+      "topics": [
+        {
+          "topic": "Overview",
+          "keywords": [],
+          "response": "The C'est Moi Card comes in Prestige and Platinum tiers, built around HAPPY GO point multipliers on department stores, travel, and overseas spending.",
+          "responseZh": "C'est Moi我的卡分為御璽卡與白金卡兩種等級,主打百貨、旅遊及海外消費HAPPY GO點數加碼。"
+        },
+        {
+          "topic": "Annual Fee",
+          "keywords": [
+            "annual fee",
+            "fee",
+            "cost",
+            "年費",
+            "費用"
+          ],
+          "response": "I don't have the current annual fee for this card confirmed — let me connect you with a representative for the exact amount.",
+          "responseZh": "目前我無法確認此卡的年費金額,讓我為您轉接客服人員確認正確金額。"
+        },
+        {
+          "topic": "HAPPY GO Rewards",
+          "keywords": [
+            "happy go",
+            "reward",
+            "points",
+            "點數",
+            "回饋"
+          ],
+          "response": "Regular spending earns 1 HAPPY GO point per NT$100, once you've made NT$5,000 or more in new spending that statement period. Designated department stores, travel, and overseas spending earn 3x points, and Far Eastern SOGO, Far Eastern Department Store, Far Eastern Mega City, Far Eastern Enterprise Mall, and friDay Shopping earn 4x points. Spending NT$100,000 or more in a month earns a 1,000-point bonus with registration.",
+          "responseZh": "當期一般消費滿新台幣5,000元以上,一般消費每新台幣100元可得1點;指定百貨、旅遊及海外消費享3倍點數,遠東SOGO、遠東百貨、遠東巨城、遠東企業商城及friDay購物享4倍點數。當月消費滿新台幣100,000元以上並登錄,可再享1,000點加碼。"
+        },
+        {
+          "topic": "Parking",
+          "keywords": [
+            "parking",
+            "停車"
+          ],
+          "response": "The Prestige tier gets 4 free hours at Far Eastern Department Store (with NT$500+ same-day spending) and 1 free hour at Far Eastern Enterprise Mall. The Platinum tier gets 3 free hours at Far Eastern Department Store (NT$500+) and 2 free hours at Far Eastern Enterprise Mall (NT$1,500+).",
+          "responseZh": "御璽卡於遠東百貨當日消費滿新台幣500元享4小時免費停車,遠東企業商城享1小時免費停車;白金卡於遠東百貨消費滿新台幣500元享3小時免費停車,遠東企業商城消費滿新台幣1,500元享2小時免費停車。"
+        },
+        {
+          "topic": "Shopping",
+          "keywords": [
+            "shopping",
+            "clothing",
+            "department store",
+            "購物",
+            "服飾",
+            "百貨"
+          ],
+          "response": "You get 10% off clothing and home goods at Far Eastern Department Stores.",
+          "responseZh": "於遠東百貨購買服飾及家居用品享9折優惠。"
+        }
+      ]
+    },
+    {
+      "id": "TRAVELJ",
+      "name": "C'est Moi Travel EasyCard (遠東C'est Moi旅遊悠遊卡)",
+      "keywords": [
+        "c'est moi旅遊悠遊卡",
+        "c'est moi travel easycard",
+        "cest moi travel easycard",
+        "travel easycard"
+      ],
+      "topics": [
+        {
+          "topic": "Overview",
+          "keywords": [],
+          "response": "The C'est Moi Travel EasyCard is a travel-focused card combining overseas cash back, an integrated EasyCard, and airport and insurance travel perks.",
+          "responseZh": "C'est Moi旅遊悠遊卡是結合海外現金回饋、內建悠遊卡功能,以及機場與保險旅遊禮遇的旅遊導向卡片。"
+        },
+        {
+          "topic": "Annual Fee",
+          "keywords": [
+            "annual fee",
+            "fee",
+            "cost",
+            "年費",
+            "費用"
+          ],
+          "response": "I don't have the current annual fee for this card confirmed — let me connect you with a representative for the exact amount.",
+          "responseZh": "目前我無法確認此卡的年費金額,讓我為您轉接客服人員確認正確金額。"
+        },
+        {
+          "topic": "Overseas Cash Back",
+          "keywords": [
+            "overseas cashback",
+            "overseas spending",
+            "cash back abroad",
+            "foreign spending",
+            "海外現金回饋",
+            "海外回饋",
+            "海外消費"
+          ],
+          "response": "Overseas spending earns a 1.5% base cash back, up to 4.5% combined with tiered bonuses, capped at NT$20,000 per billing cycle. European in-store purchases are excluded. Spending NT$60,000 or more in a month in Japan, Korea, Singapore, Thailand, or the USA earns an extra NT$600 cash back.",
+          "responseZh": "海外消費基本可享1.5%現金回饋,疊加各級距加碼後最高4.5%,每期帳單上限新台幣20,000元(不含歐洲實體店面消費)。當月於日本、韓國、新加坡、泰國或美國消費滿新台幣60,000元以上,再享新台幣600元加碼回饋。"
+        },
+        {
+          "topic": "EasyCard & Tolls",
+          "keywords": [
+            "easycard",
+            "toll",
+            "highway",
+            "悠遊卡",
+            "通行費",
+            "國道"
+          ],
+          "response": "EasyCard auto-reload earns a 10% JCB rebate, up to NT$50 a month, and auto-reload for national highway tolls gets a 9% discount.",
+          "responseZh": "悠遊卡自動加值享JCB 10%回饋,每月上限新台幣50元;國道通行費自動儲值享9折優惠。"
+        },
+        {
+          "topic": "Airport Parking",
+          "keywords": [
+            "airport parking"
+          ],
+          "response": "You get 2 free uses a month, up to 7 days each, at Taoyuan or Kaohsiung airport, once you charge a full airfare, 80% or more of a tour package, or NT$25,000 or more in general spending.",
+          "responseZh": "只要您刷卡支付全額機票、80%以上旅遊團費,或一般消費滿新台幣25,000元,即可享桃園或高雄機場每月2次、每次最高7天的免費停車。"
+        },
+        {
+          "topic": "Travel Insurance",
+          "keywords": [
+            "travel insurance",
+            "insurance coverage",
+            "旅遊保險",
+            "保險"
+          ],
+          "response": "Travel accident insurance covers up to NT$20 million, plus flight delay coverage up to NT$10,000 and baggage delay or loss coverage of NT$10,000 to NT$30,000, when you charge the full public-transport fare or 80% or more of a tour package.",
+          "responseZh": "只要刷卡支付全額大眾運輸票款或80%以上旅遊團費,即可享最高新台幣2,000萬元旅遊平安保險,另有最高新台幣10,000元班機延誤保障及新台幣10,000至30,000元行李延誤或遺失保障。"
+        }
+      ]
+    },
+    {
+      "id": "NEWCENT",
+      "name": "New Century Card (遠東New Century信用卡)",
+      "keywords": [
+        "new century信用卡",
+        "newcentury card",
+        "new century card"
+      ],
+      "topics": [
+        {
+          "topic": "Overview",
+          "keywords": [],
+          "response": "The New Century Card focuses on cash back at popular retail brands — department stores, drugstores, and online shopping — when you register and pay by autopay.",
+          "responseZh": "New Century信用卡主打於熱門零售品牌回饋,涵蓋百貨、藥妝及網路購物,登錄並使用自動扣繳消費即可享回饋。"
+        },
+        {
+          "topic": "Annual Fee",
+          "keywords": [
+            "annual fee",
+            "fee",
+            "cost",
+            "年費",
+            "費用"
+          ],
+          "response": "I don't have the current annual fee for this card confirmed — let me connect you with a representative for the exact amount.",
+          "responseZh": "目前我無法確認此卡的年費金額,讓我為您轉接客服人員確認正確金額。"
+        },
+        {
+          "topic": "General Cash Back",
+          "keywords": [
+            "reward",
+            "cashback",
+            "cash back",
+            "points",
+            "回饋",
+            "點數"
+          ],
+          "response": "You can earn up to 5% cash back at designated merchants — department stores, drugstores like Watsons, Cosmed, and Poya, online platforms like Coupang, momo, PChome, and Shopee, and apparel brands like ZARA, UNIQLO, H&M, and NET — once you set up autopay from a Far Eastern account and register monthly, capped at NT$500 per account per month.",
+          "responseZh": "只要設定遠東銀行帳戶自動扣繳並每月登錄,於指定商家消費最高可享5%回饋,涵蓋百貨公司、屈臣氏、康是美、寶雅等藥妝,Coupang、momo、PChome、蝦皮等網購平台,以及ZARA、UNIQLO、H&M、NET等服飾品牌,每戶每月上限新台幣500元。"
+        },
+        {
+          "topic": "Parking & Insurance",
+          "keywords": [
+            "parking",
+            "insurance",
+            "airport parking",
+            "停車",
+            "保險"
+          ],
+          "response": "You get free parking at Far Eastern Department Store and Far Eastern Plaza with NT$500 or more in same-day spending, plus travel accident insurance up to NT$20 million on the Platinum tier or NT$7.5 million on Gold and standard tiers.",
+          "responseZh": "當日消費滿新台幣500元,即可享遠東百貨及遠東廣場免費停車,另享旅遊平安保險,白金卡最高新台幣2,000萬元,金卡及一般卡最高新台幣750萬元。"
+        }
+      ]
+    },
+    {
+      "id": "ICLOUD",
+      "name": "iCloud Card (遠東雲端iCloud信用卡)",
+      "keywords": [
+        "icloud信用卡",
+        "icloud credit card",
+        "雲端icloud信用卡",
+        "icloud card"
+      ],
+      "topics": [
+        {
+          "topic": "Overview",
+          "keywords": [],
+          "response": "The iCloud Card is a virtual, card-not-present payment tool built for online shopping — there's no physical card, and you set your own custom spending limit.",
+          "responseZh": "遠東雲端iCloud信用卡是專為網路購物設計的虛擬無實體卡付款工具,可自訂專屬消費額度。"
+        },
+        {
+          "topic": "Spending Limit",
+          "keywords": [
+            "spending limit",
+            "custom limit",
+            "set my limit",
+            "消費額度",
+            "自訂額度"
+          ],
+          "response": "You can set a custom spending limit from NT$1,000 up to your full credit line with the bank, in NT$1,000 increments, and adjust it as often as every few months.",
+          "responseZh": "您可自訂消費額度,最低新台幣1,000元,最高至您於本行的總信用額度,以新台幣1,000元為單位調整,並可定期(最快每3個月)重新設定。"
+        },
+        {
+          "topic": "Annual Fee",
+          "keywords": [
+            "annual fee",
+            "fee",
+            "cost",
+            "年費",
+            "費用"
+          ],
+          "response": "I don't have the current annual fee for this card confirmed — let me connect you with a representative for the exact amount.",
+          "responseZh": "目前我無法確認此卡的年費金額,讓我為您轉接客服人員確認正確金額。"
+        }
+      ]
+    },
+    {
+      "id": "EBCARD",
+      "name": "Premier Business Card (遠東頂極商務卡)",
+      "keywords": [
+        "頂極商務卡",
+        "premier business card",
+        "elite business card"
+      ],
+      "topics": [
+        {
+          "topic": "Overview",
+          "keywords": [],
+          "response": "The Premier Business Card is a corporate card for registered companies, government agencies, schools, and non-profits, offering domestic travel-category cash back plus premium travel perks.",
+          "responseZh": "遠東頂極商務卡是提供給立案公司、政府機關、學校及非營利組織的企業卡,享國內旅遊類別現金回饋及頂級旅遊禮遇。"
+        },
+        {
+          "topic": "Annual Fee",
+          "keywords": [
+            "annual fee",
+            "fee",
+            "cost",
+            "年費",
+            "費用"
+          ],
+          "response": "It's NT$2,000 per card a year, waived the first year, and waived again if cumulative spending reaches NT$60,000 or more, or with 12 or more purchases regardless of amount.",
+          "responseZh": "每卡年費新台幣2,000元,首年免年費,之後累計消費滿新台幣60,000元以上,或消費滿12筆(不限金額)可再次免年費。"
+        },
+        {
+          "topic": "General Cash Back",
+          "keywords": [
+            "reward",
+            "cashback",
+            "cash back",
+            "points",
+            "回饋",
+            "點數"
+          ],
+          "response": "Domestic spending on High Speed Rail, Taiwan Railway, gas stations, airlines, hotels, and travel agencies earns 1.5% cash back; other general and foreign spending earns 1%, capped at NT$20,000 combined per corporate account.",
+          "responseZh": "國內於高鐵、台鐵、加油站、航空公司、飯店及旅行社消費享1.5%現金回饋;其他一般消費及海外消費享1%回饋,每企業帳戶合計上限新台幣20,000元。"
+        },
+        {
+          "topic": "Airport Lounge",
+          "keywords": [
+            "lounge",
+            "priority pass",
+            "貴賓室",
+            "機場貴賓室"
+          ],
+          "response": "You get 4 free Priority Pass or U.FIRST airport lounge visits a year once the prior year's spending reaches NT$300,000 or more.",
+          "responseZh": "前一年度消費滿新台幣300,000元以上,即可享每年4次免費Priority Pass或U.FIRST機場貴賓室。"
+        },
+        {
+          "topic": "Travel Insurance",
+          "keywords": [
+            "travel insurance",
+            "insurance coverage",
+            "旅遊保險",
+            "保險"
+          ],
+          "response": "Travel accident insurance covers up to NT$35 million, plus medical coverage up to NT$1 million and flight delay or baggage loss coverage up to NT$30,000, when you charge the full ticket or 80% or more of a tour deposit.",
+          "responseZh": "只要刷卡支付全額機票或80%以上旅遊團費訂金,即可享最高新台幣3,500萬元旅遊平安保險,另有最高新台幣100萬元醫療保障及最高新台幣30,000元班機延誤或行李遺失保障。"
+        }
+      ]
+    },
+    {
+      "id": "EDEN",
+      "name": "Eden Charity Card (遠銀伊甸愛心卡)",
+      "keywords": [
+        "伊甸愛心卡",
+        "eden charity card",
+        "eden love heart card"
+      ],
+      "topics": [
+        {
+          "topic": "Overview",
+          "keywords": [],
+          "response": "The Eden Charity Card supports the Eden Foundation's therapy programs for children with developmental delays — cardholders can also donate loyalty points, and the bank has partnered with Eden for over 28 years.",
+          "responseZh": "伊甸愛心卡支持伊甸基金會為發展遲緩兒童提供的療育服務,持卡人亦可捐贈紅利點數,本行與伊甸基金會合作已超過28年。"
+        },
+        {
+          "topic": "Annual Fee",
+          "keywords": [
+            "annual fee",
+            "fee",
+            "cost",
+            "年費",
+            "費用"
+          ],
+          "response": "I don't have the current annual fee for this card confirmed — let me connect you with a representative for the exact amount.",
+          "responseZh": "目前我無法確認此卡的年費金額,讓我為您轉接客服人員確認正確金額。"
+        },
+        {
+          "topic": "Charity Donations",
+          "keywords": [
+            "donate",
+            "donation",
+            "charity",
+            "eden foundation",
+            "捐款",
+            "愛心",
+            "伊甸基金會"
+          ],
+          "response": "A NT$500 donation funds one hour of individualized therapy for a child with developmental delays. You can set up a recurring NT$300-a-month donation for 12 months or more, or a one-time NT$3,600 donation, either of which comes with a RODY multipurpose bag. Cumulative donations through this program have exceeded NT$104 million.",
+          "responseZh": "捐款新台幣500元即可支持一小時的發展遲緩兒童個別化療育服務。您可設定每月新台幣300元、至少12個月的定期定額捐款,或一次捐款新台幣3,600元,兩者皆附贈RODY多功能包。累計捐款已超過新台幣1億400萬元。"
+        }
+      ]
+    },
+    {
+      "id": "UNIAIR",
+      "name": "China Airlines Co-Branded Card (華信航空聯名卡)",
+      "keywords": [
+        "華信航空聯名卡",
+        "china airlines co-branded card",
+        "china airlines card",
+        "uni air card"
+      ],
+      "topics": [
+        {
+          "topic": "Overview",
+          "keywords": [],
+          "response": "The China Airlines Co-Branded Card comes in Gold and Platinum tiers. It previously included China Airlines lounge access at Taipei Songshan Airport, but that specific lounge benefit was discontinued due to airport renovations — I'd recommend checking with a representative for its current benefits.",
+          "responseZh": "華信航空聯名卡分為金卡及白金卡。原提供台北松山機場華信航空貴賓室禮遇,惟因機場整修已取消該項貴賓室權益,詳細現行優惠建議洽詢客服人員確認。"
+        },
+        {
+          "topic": "Annual Fee",
+          "keywords": [
+            "annual fee",
+            "fee",
+            "cost",
+            "年費",
+            "費用"
+          ],
+          "response": "I don't have the current annual fee for this card confirmed — let me connect you with a representative for the exact amount.",
+          "responseZh": "目前我無法確認此卡的年費金額,讓我為您轉接客服人員確認正確金額。"
+        },
+        {
+          "topic": "Airport Lounge",
+          "keywords": [
+            "lounge",
+            "貴賓室",
+            "機場貴賓室"
+          ],
+          "response": "The card's dedicated China Airlines lounge access at Taipei Songshan Airport was discontinued as of July 2026 due to airport renovations. I'd recommend checking with a representative for what lounge access, if any, currently applies.",
+          "responseZh": "本卡於台北松山機場的華信航空貴賓室專屬禮遇已於2026年7月因機場整修而取消,現行貴賓室權益建議洽詢客服人員確認。"
+        }
+      ]
+    },
+    {
+      "id": "ELITEGOLD",
+      "name": "Far Eastern Enterprise Elite Gold Card (遠企尊榮金卡)",
+      "keywords": [
+        "遠企尊榮金卡",
+        "enterprise elite gold card",
+        "far eastern enterprise elite gold card"
+      ],
+      "topics": [
+        {
+          "topic": "Overview",
+          "keywords": [],
+          "response": "The Enterprise Elite Gold Card is a corporate card offering cardholder benefits, a bonus rewards program, and parking privileges. I don't have its specific annual fee or reward rates confirmed — let me connect you with a representative for the exact details.",
+          "responseZh": "遠企尊榮金卡是提供卡友權益、紅利禮讚回饋計畫及停車優惠的企業卡。目前我無法確認此卡的年費金額或具體回饋率,讓我為您轉接客服人員確認詳細內容。"
+        },
+        {
+          "topic": "Annual Fee",
+          "keywords": [
+            "annual fee",
+            "fee",
+            "cost",
+            "年費",
+            "費用"
+          ],
+          "response": "I don't have the current annual fee for this card confirmed — let me connect you with a representative for the exact amount.",
+          "responseZh": "目前我無法確認此卡的年費金額,讓我為您轉接客服人員確認正確金額。"
+        }
+      ]
     }
   ],
   "GENERAL_SCRIPTS": [
@@ -932,6 +1441,12 @@
     "Dining Privileges": "餐飲優惠",
     "HAPPY GO Points": "HAPPY GO 點數",
     "How to Apply": "如何申請",
-    "Card List": "卡片列表"
+    "Card List": "卡片列表",
+    "Dining & Hotel": "餐飲與飯店",
+    "Parking": "停車",
+    "EasyCard & Tolls": "悠遊卡與通行費",
+    "Parking & Insurance": "停車與保險",
+    "Spending Limit": "消費額度",
+    "Charity Donations": "愛心捐款"
   }
 }
