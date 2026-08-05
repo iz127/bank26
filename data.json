@@ -1233,6 +1233,24 @@
       "responseZh": "您可以透過線上申辦平台申請任一信用卡,或親臨分行辦理。既有客戶亦可透過自助服務管道申請。"
     },
     {
+      "topic": "Card Recommendation",
+      "keywords": [
+        "which card is best",
+        "which card is right for me",
+        "what card would you suggest",
+        "what card do you recommend",
+        "recommend a card",
+        "suggest a card",
+        "best card for me",
+        "哪張卡適合我",
+        "推薦信用卡",
+        "該辦哪張卡",
+        "哪張卡比較好"
+      ],
+      "response": "It depends on what matters most to you. Frequent international travelers do well with the Premier Happy Card for its airport transfers, lounge access, and travel insurance; everyday dining and shopping is covered by the Happy Card; families with kids can use the Happy+ Family Card's tuition and children's-floor perks; commuters and drivers fit the LeXing Card's parking, roadside, and transportation cash back; frequent China Airlines flyers benefit from the China Airlines Co-Branded Card; and businesses can look at the Premier Business Card or Enterprise Elite Gold Card. Tell me what matters most to you and I can narrow it down further.",
+      "responseZh": "這要看您最重視哪方面。經常出國旅遊的高消費族群適合頂級快樂卡,享有機場接送、貴賓室及旅遊保險;日常餐飲購物則快樂信用卡就很划算;有小孩的家庭可選擇樂家＋卡的學費分期及兒童樓層優惠;通勤族及開車族適合樂行卡的停車、道路救援及交通現金回饋;常搭華信航空的旅客適合華信航空聯名卡;企業用戶則可考慮頂極商務卡或遠企尊榮金卡。歡迎告訴我您最在意哪方面,我可以再幫您縮小範圍。"
+    },
+    {
       "topic": "Card List",
       "keywords": [
         "type of card",
