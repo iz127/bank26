@@ -1123,8 +1123,8 @@
         {
           "topic": "Overview",
           "keywords": [],
-          "response": "The China Airlines Co-Branded Card comes in Gold and Platinum tiers. It previously included China Airlines lounge access at Taipei Songshan Airport, but that specific lounge benefit was discontinued due to airport renovations — I'd recommend checking with a representative for its current benefits.",
-          "responseZh": "華信航空聯名卡分為金卡及白金卡。原提供台北松山機場華信航空貴賓室禮遇,惟因機場整修已取消該項貴賓室權益,詳細現行優惠建議洽詢客服人員確認。"
+          "response": "The China Airlines Co-Branded Card comes in Gold and Platinum tiers. It previously included China Airlines lounge access at Taipei Songshan Airport, but that specific lounge benefit was discontinued due to airport renovations — please check with a representative for its current benefits.",
+          "responseZh": "華信航空聯名卡分為金卡及白金卡。原提供台北松山機場華信航空貴賓室禮遇,惟因機場整修已取消該項貴賓室權益,詳細現行優惠請洽詢客服人員確認。"
         },
         {
           "topic": "Annual Fee",
@@ -1145,8 +1145,8 @@
             "貴賓室",
             "機場貴賓室"
           ],
-          "response": "The card's dedicated China Airlines lounge access at Taipei Songshan Airport was discontinued as of July 2026 due to airport renovations. I'd recommend checking with a representative for what lounge access, if any, currently applies.",
-          "responseZh": "本卡於台北松山機場的華信航空貴賓室專屬禮遇已於2026年7月因機場整修而取消,現行貴賓室權益建議洽詢客服人員確認。"
+          "response": "The card's dedicated China Airlines lounge access at Taipei Songshan Airport was discontinued as of July 2026 due to airport renovations. Please check with a representative for what lounge access, if any, currently applies.",
+          "responseZh": "本卡於台北松山機場的華信航空貴賓室專屬禮遇已於2026年7月因機場整修而取消,現行貴賓室權益請洽詢客服人員確認。"
         }
       ]
     },
