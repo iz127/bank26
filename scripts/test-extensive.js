@@ -842,6 +842,45 @@ async function main() {
       });
     }
   }
+  // I8: "overseas" is a natural travel synonym missing from the initial
+  // persona-hint list -- found via systematic offline probing, not yet a live
+  // report, but the same class of gap as I6.
+  {
+    checks++;
+    const modOverseas = buildModuleWithMockClaude(dataJsonText, JSON.stringify({ matches: [], oos: null, reply: '' }));
+    const history4 = [
+      { role: 'user', content: 'what cards do you recommend' },
+      { role: 'assistant', content: '...', topicLabel: 'Card Recommendation' },
+    ];
+    const result = await modOverseas.classifyAndRespond('i go overseas often', history4);
+    if (!result.script || !result.script.label.includes('Premier Happy Card')) {
+      fail('I8-overseas-preference-must-narrow-to-premier-happy-card', {
+        message: 'i go overseas often', got: result.script && result.script.label,
+      });
+    }
+  }
+  // I9: "China Airlines" as a two-word brand phrase must resolve to the China
+  // Airlines Co-Branded Card, not LeXing Card -- LeXing's own Transportation
+  // Cash Back topic carries "airline" (singular) as a curated keyword for
+  // airline-cash-back categories, which accidentally substring-matches
+  // "airlines" and used to win via the generic per-card keyword sweep before
+  // the (correctly targeted, but guarded on matchedIds.length === 1) China
+  // Airlines persona hint ever got a chance to run -- an actually WRONG
+  // recommendation, not just a verbose one.
+  {
+    checks++;
+    const modCI = buildModuleWithMockClaude(dataJsonText, JSON.stringify({ matches: [], oos: null, reply: '' }));
+    const history5 = [
+      { role: 'user', content: 'what cards do you recommend' },
+      { role: 'assistant', content: '...', topicLabel: 'Card Recommendation' },
+    ];
+    const result = await modCI.classifyAndRespond('i fly china airlines a lot', history5);
+    if (!result.script || !result.script.label.includes('China Airlines') || result.script.label.includes('LeXing')) {
+      fail('I9-china-airlines-preference-must-not-match-lexing-card', {
+        message: 'i fly china airlines a lot', got: result.script && result.script.label,
+      });
+    }
+  }
 
   // ---------------------------------------------------------------------
   // Section J: regression for a real bug caught live -- the system prompt
