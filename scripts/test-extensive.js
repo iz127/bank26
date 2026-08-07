@@ -516,6 +516,9 @@ async function main() {
     'are these all the perks it has',
     'is that everything?',
     'anything else it offers?',
+    'what other perks are there',
+    'any other benefits?',
+    'what more does it offer',
     '這樣就是全部了嗎？',
   ];
   const CROSS_CARD_GENERAL_LABELS = new Set(['Dining Privileges', 'HAPPY GO Points', 'Card List', 'Card Recommendation']);
