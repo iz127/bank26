@@ -798,6 +798,50 @@ async function main() {
       });
     }
   }
+  // I6: a bare preference with NO curated topic keyword anywhere to latch onto
+  // (unlike "kids", which happens to match Children's Floor Bonus's own
+  // keywords) previously fell all the way back to the full generic pitch every
+  // time -- caught live: "i also like travelling" then "i like travelling" in
+  // the same flow both got the identical full multi-audience paragraph
+  // verbatim, back to back. A persona-hint mapping (mirroring the approved
+  // Card Recommendation script's own per-audience text) now narrows "travel"
+  // to Premier Happy Card's Overview the same way "kids" already narrows.
+  {
+    checks++;
+    const modTravel = buildModuleWithMockClaude(dataJsonText, JSON.stringify({ matches: [], oos: null, reply: '' }));
+    const history2 = [
+      { role: 'user', content: 'i also like travelling' },
+      { role: 'assistant', content: '...', topicLabel: 'Card Recommendation' },
+    ];
+    const result = await modTravel.classifyAndRespond('i like travelling', history2);
+    const recommendationScript6 = modTravel.GENERAL_SCRIPTS.find(g => g.topic === 'Card Recommendation');
+    if (!result.script || !result.script.label.includes('Premier Happy Card')) {
+      fail('I6-travel-preference-must-narrow-to-premier-happy-card', {
+        message: 'i like travelling', got: result.script && result.script.label,
+      });
+    } else if (recommendationScript6 && result.reply && result.reply.includes(recommendationScript6.response)) {
+      fail('I6-repeated-travel-preference-must-not-repeat-full-canned-pitch', {
+        message: 'i like travelling', got: result.reply,
+      });
+    }
+  }
+  // I7: an unmapped preference (no topic keyword, no persona hint) must still
+  // correctly fall back to the full canned pitch -- the narrowing above must
+  // not overcorrect into inventing a match for genuinely generic statements.
+  {
+    checks++;
+    const modUnmapped = buildModuleWithMockClaude(dataJsonText, JSON.stringify({ matches: [], oos: null, reply: '' }));
+    const history3 = [
+      { role: 'user', content: 'what cards do you recommend' },
+      { role: 'assistant', content: '...', topicLabel: 'Card Recommendation' },
+    ];
+    const result = await modUnmapped.classifyAndRespond('i just moved to a new apartment', history3);
+    if (!result.script || result.script.label !== 'Card Recommendation') {
+      fail('I7-unmapped-preference-must-stay-generic-recommendation-only', {
+        message: 'i just moved to a new apartment', got: result.script && result.script.label,
+      });
+    }
+  }
 
   // ---------------------------------------------------------------------
   // Section J: regression for a real bug caught live -- the system prompt
