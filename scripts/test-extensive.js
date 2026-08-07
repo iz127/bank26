@@ -761,6 +761,43 @@ async function main() {
       });
     }
   }
+  // I5: a FOURTH distinct trigger path -- the model matches Card Recommendation
+  // + a specific topic AND writes an actual reply, but that reply fails
+  // render-time grounding validation (e.g. an ungrounded number). The render
+  // layer's own "fall back to raw text on validation failure" logic (a
+  // separate fix from earlier this session) used script.response/responseZh
+  // directly, completely bypassing the narrowing above -- caught live
+  // immediately after I4 shipped. classifyAndRespond now exposes
+  // groundedFallbackReply precisely so the render layer can use the SAME
+  // narrowed text instead of the raw combined script, regardless of why the
+  // model's own reply couldn't be used.
+  {
+    checks++;
+    const familyCard = CARDS.find(c => c.name.includes('Happy+ Family'));
+    const overviewId = familyCard.id + '_' + slug('Overview');
+    const mockJsonUngrounded = JSON.stringify({
+      matches: ['GENERAL_CARD_RECOMMENDATION', overviewId],
+      oos: null,
+      reply: 'With 3 kids you would get 4x the usual benefit from the Happy+ Family Card program.',
+    });
+    const mockModUngrounded = buildModuleWithMockClaude(dataJsonText, mockJsonUngrounded);
+    const history = [
+      { role: 'user', content: 'what cards do you recommedn' },
+      { role: 'assistant', content: 'It depends on what matters most to you...', topicLabel: 'Card Recommendation' },
+    ];
+    const result = await mockModUngrounded.classifyAndRespond('i have three kids', history);
+    const validation = mockModUngrounded.validateGroundedReply(result.reply, result.script, result.lang, false);
+    const recommendationScript5 = mockModUngrounded.GENERAL_SCRIPTS.find(g => g.topic === 'Card Recommendation');
+    if (validation.ok) {
+      fail('I5-setup-expected-validation-to-reject-ungrounded-number', { got: result.reply });
+    } else if (!result.groundedFallbackReply) {
+      fail('I5-groundedFallbackReply-must-be-populated', { result });
+    } else if (recommendationScript5 && result.groundedFallbackReply.includes(recommendationScript5.response)) {
+      fail('I5-render-layer-fallback-must-not-repeat-full-canned-pitch', {
+        message: 'i have three kids', got: result.groundedFallbackReply,
+      });
+    }
+  }
 
   // ---------------------------------------------------------------------
   // Section J: regression for a real bug caught live -- the system prompt
