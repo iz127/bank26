@@ -667,6 +667,31 @@ async function main() {
   }
 
   // ---------------------------------------------------------------------
+  // Section J: regression for a real bug caught live -- the system prompt
+  // already tells the model "GENERAL_CARD_LIST is ONLY for a fully generic
+  // 'what cards do you offer' question... Never combine it with
+  // GENERAL_CARD_RECOMMENDATION", but a plain "What credit cards do you
+  // offer?" still came back matching BOTH. Mocks the model doing exactly that,
+  // and confirms the deterministic correction keeps only Card List (since the
+  // message itself has none of Card Recommendation's own keywords in it).
+  // ---------------------------------------------------------------------
+  {
+    checks++;
+    const mockJson2 = JSON.stringify({
+      matches: ['GENERAL_CARD_LIST', 'GENERAL_CARD_RECOMMENDATION'],
+      oos: null,
+      reply: 'We offer quite a few categories now, and I can also help recommend one based on what matters most to you.',
+    });
+    const mockMod2 = buildModuleWithMockClaude(dataJsonText, mockJson2);
+    const result = await mockMod2.classifyAndRespond('What credit cards do you offer?', []);
+    if (!result.script || result.script.label !== 'Card List') {
+      fail('J-card-list-must-not-combine-with-recommendation-on-plain-catalog-request', {
+        message: 'What credit cards do you offer?', got: result.script ? result.script.label : result.kind,
+      });
+    }
+  }
+
+  // ---------------------------------------------------------------------
   console.log(`Ran ${checks} checks.`);
   console.log(`  Section A/A2 (paraphrase + fuzzy): keyword coverage across ${CARDS.length} cards`);
   console.log(`  Section B (out-of-scope phrasing): ${OOS.length} categories`);
