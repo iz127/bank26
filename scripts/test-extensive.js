@@ -663,6 +663,18 @@ async function main() {
           message: 'but i also have 3 kids', got: label || result.kind,
         });
       }
+      // Caught live right after this fix shipped: the visible reply was
+      // gluing the ENTIRE generic Card Recommendation pitch onto the specific
+      // fact, repeating the exact same multi-audience paragraph the customer
+      // had just seen a turn earlier ("don't repeat"). The label must still
+      // show Card Recommendation was involved (checked above), but the reply
+      // text itself must stay just the specific, non-redundant fact.
+      const recommendationScript = mockMod.GENERAL_SCRIPTS.find(g => g.topic === 'Card Recommendation');
+      if (result.reply && recommendationScript && result.reply.includes(recommendationScript.response)) {
+        fail('I2-recommendation-flow-must-not-repeat-full-canned-pitch', {
+          message: 'but i also have 3 kids', got: result.reply,
+        });
+      }
     }
   }
 
