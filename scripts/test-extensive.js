@@ -66,6 +66,33 @@ function buildModule(dataJsonText) {
   }
 }
 
+// Same as buildModule, but with a mocked window.claude.complete -- needed to
+// exercise classifyAndRespond's handling of a NON-COMPLIANT model response
+// (e.g. matches too narrow, or a reply the model wrote that doesn't match what
+// ends up in the final match set), which the plain offline harness above
+// (window.claude entirely absent) can never reach since it never even attempts
+// the model branch.
+function buildModuleWithMockClaude(dataJsonText, mockReplyJson) {
+  const html = fs.readFileSync(INDEX_PATH, 'utf-8');
+  const template = extractTemplate(html);
+  const logicSrc = extractClassifyLogic(template);
+  const stub = `const document = { getElementById: () => ({ textContent: ${JSON.stringify(dataJsonText)} }) };\n`;
+  const exportsList = [
+    'classifyKeyword', 'classifyAndRespond', 'CARDS', 'GENERAL_SCRIPTS', 'OOS', 'OOS_LABELS',
+    'SCRIPT_INDEX', 'slug', 'validateGroundedReply', 'combineScripts', 'detectLang', 'tokenize',
+    'cjkBigrams', 'mostSpecificCardMatch', 'resolveContextCardId',
+  ];
+  const mockComplete = `const window = { claude: { complete: async () => ${JSON.stringify(mockReplyJson)} } };\n`;
+  const full = stub + logicSrc + mockComplete + `module.exports = { ${exportsList.join(', ')} };\n`;
+  const tmpPath = path.join(require('os').tmpdir(), `classify-sim-mock-${Date.now()}-${Math.random().toString(36).slice(2)}.js`);
+  fs.writeFileSync(tmpPath, full);
+  try {
+    return require(tmpPath);
+  } finally {
+    fs.unlinkSync(tmpPath);
+  }
+}
+
 async function main() {
   const dataJsonText = fs.readFileSync(DATA_PATH, 'utf-8').trimEnd();
   const mod = buildModule(dataJsonText);
@@ -599,6 +626,43 @@ async function main() {
       fail('H-single-card-followup-must-not-regress-to-cross-card', {
         message: 'are these all the perks it has', leaked, got: result.script && result.script.label,
       });
+    }
+  }
+
+  // ---------------------------------------------------------------------
+  // Section I: regression for a real bug caught live -- in a recommendation
+  // flow ("i like travelling" -> Card Recommendation pitch -> "but i also have
+  // 3 kids"), a non-compliant model matched ONLY the narrow Children's Floor
+  // Bonus topic and wrote a reply about just that fact, dropping the
+  // recommendation framing entirely even though the system prompt explicitly
+  // requires GENERAL_CARD_RECOMMENDATION to always be included alongside a
+  // specific-topic match during a recommendation flow. The original safety net
+  // only covered a fully empty match set; this must also cover a non-empty but
+  // too-narrow one. Needs a mocked model response (the plain offline harness
+  // never even attempts the model branch), so builds its own module instance.
+  // ---------------------------------------------------------------------
+  {
+    checks++;
+    const mockJson = JSON.stringify({
+      matches: ['YA_CHILDREN_S_FLOOR_BONUS'],
+      oos: null,
+      reply: "Spending at designated children's-floor counters at Far Eastern Chengcheng Mall earns 4x points, plus an extra 2x posted to your HAPPY GO account each billing cycle.",
+    });
+    const mockMod = buildModuleWithMockClaude(dataJsonText, mockJson);
+    if (!mockMod.SCRIPT_INDEX['YA_CHILDREN_S_FLOOR_BONUS']) {
+      fail('I-setup-children-floor-bonus-id-missing', { note: 'card data ids changed -- update this test\'s hardcoded id' });
+    } else {
+      const history = [
+        { role: 'user', content: 'i like travelling' },
+        { role: 'assistant', content: 'It depends on what matters most to you...', topicLabel: 'Card Recommendation' },
+      ];
+      const result = await mockMod.classifyAndRespond('but i also have 3 kids', history);
+      const label = result.script && result.script.label;
+      if (!label || !label.includes('Card Recommendation')) {
+        fail('I-recommendation-flow-narrow-match-must-still-include-recommendation', {
+          message: 'but i also have 3 kids', got: label || result.kind,
+        });
+      }
     }
   }
 
