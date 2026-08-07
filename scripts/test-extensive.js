@@ -628,6 +628,26 @@ async function main() {
       });
     }
   }
+  // Chinese equivalent of the cross-card fix above -- the English "cards"
+  // (plural) + quantifier word signal has no direct Chinese equivalent
+  // (Chinese doesn't inflect for plural), so this needs its own detection.
+  // Caught live: "哪些卡有機場貴賓室" (which cards have airport lounge access)
+  // right after discussing one card got wrongly scoped to just that card --
+  // Airport Lounge has no catalog-wide GENERAL_SCRIPTS summary to catch it via
+  // the other signal either, so this was a genuine gap distinct from the
+  // English fix.
+  {
+    checks++;
+    const zhHistory = [{ role: 'user', content: '請問世界卡的資訊' }];
+    const result = await classifyAndRespond('哪些卡有機場貴賓室', zhHistory);
+    const segments = result.script ? result.script.label.split(' + ') : [];
+    const distinctCards = new Set(segments.map(s => s.split(' — ')[0]));
+    if (!result.script || distinctCards.size <= 1) {
+      fail('H-zh-cross-card-question-after-context-must-not-stay-scoped', {
+        message: '哪些卡有機場貴賓室', got: result.script ? result.script.label : result.kind,
+      });
+    }
+  }
 
   // ---------------------------------------------------------------------
   // Section I: regression for a real bug caught live -- in a recommendation
@@ -675,6 +695,38 @@ async function main() {
           message: 'but i also have 3 kids', got: result.reply,
         });
       }
+    }
+  }
+  // I3: the SAME "don't repeat" requirement, but via a different trigger path --
+  // the model matches NOTHING at all (modelFoundNothing = true), the
+  // deterministic keyword-tag fallback finds the specific topic on its own
+  // (via its own curated keywords, not a model choice), and the
+  // recommendation-flow safety net then adds Card Recommendation on top of
+  // that. Caught live: this path re-broke I2 immediately after I2 shipped,
+  // because "if (modelFoundNothing && matchedIds.length) reply = ''" used to
+  // run AFTER the recommendation-flow block set its correct, narrowed reply,
+  // silently wiping it back out and letting it get refilled with the full
+  // combined text. Needs its own mock (empty matches) since I2's mock takes
+  // the OTHER path (model matches the narrow topic directly).
+  {
+    checks++;
+    const mockJsonEmpty = JSON.stringify({ matches: [], oos: null, reply: '' });
+    const mockModEmpty = buildModuleWithMockClaude(dataJsonText, mockJsonEmpty);
+    const history = [
+      { role: 'user', content: 'what cards do you recommend' },
+      { role: 'assistant', content: 'It depends on what matters most to you...', topicLabel: 'Card Recommendation' },
+    ];
+    const result = await mockModEmpty.classifyAndRespond('i have three kids', history);
+    const label = result.script && result.script.label;
+    const recommendationScript = mockModEmpty.GENERAL_SCRIPTS.find(g => g.topic === 'Card Recommendation');
+    if (!label || !label.includes('Card Recommendation')) {
+      fail('I3-empty-match-recommendation-flow-must-include-recommendation', {
+        message: 'i have three kids', got: label || result.kind,
+      });
+    } else if (result.reply && recommendationScript && result.reply.includes(recommendationScript.response)) {
+      fail('I3-empty-match-recommendation-flow-must-not-repeat-full-canned-pitch', {
+        message: 'i have three kids', got: result.reply,
+      });
     }
   }
 
