@@ -729,6 +729,38 @@ async function main() {
       });
     }
   }
+  // I4: a THIRD distinct trigger path for the same "don't repeat" requirement --
+  // the model COMPLIANTLY matches both GENERAL_CARD_RECOMMENDATION and a
+  // specific topic on its own (not via any of this codebase's own injection
+  // logic), but leaves "reply" empty. Caught live immediately after I2/I3
+  // shipped: this path skips the recommendation-flow injection block entirely
+  // (its guard is "if NOT already includes recommendation"), so the narrowing
+  // logic living only inside that block never got a chance to run, and the
+  // full canned pitch got glued onto the specific topic's own text anyway.
+  // This is why the narrowing now lives at the shared final fallback-fill site
+  // instead of inside any one caller of it.
+  {
+    checks++;
+    const familyCard = CARDS.find(c => c.name.includes('Happy+ Family'));
+    const overviewId = familyCard.id + '_' + slug('Overview');
+    const mockJsonCompliant = JSON.stringify({
+      matches: ['GENERAL_CARD_RECOMMENDATION', overviewId],
+      oos: null,
+      reply: '',
+    });
+    const mockModCompliant = buildModuleWithMockClaude(dataJsonText, mockJsonCompliant);
+    const history = [
+      { role: 'user', content: 'what cards do you recommedn' },
+      { role: 'assistant', content: 'It depends on what matters most to you...', topicLabel: 'Card Recommendation' },
+    ];
+    const result = await mockModCompliant.classifyAndRespond('i have three kids', history);
+    const recommendationScript = mockModCompliant.GENERAL_SCRIPTS.find(g => g.topic === 'Card Recommendation');
+    if (result.reply && recommendationScript && result.reply.includes(recommendationScript.response)) {
+      fail('I4-compliant-dual-match-empty-reply-must-not-repeat-full-canned-pitch', {
+        message: 'i have three kids', got: result.reply,
+      });
+    }
+  }
 
   // ---------------------------------------------------------------------
   // Section J: regression for a real bug caught live -- the system prompt
