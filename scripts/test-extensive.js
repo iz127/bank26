@@ -556,6 +556,53 @@ async function main() {
   }
 
   // ---------------------------------------------------------------------
+  // Section H: regression for a real bug caught live, immediately after fixing
+  // Section G above -- with the knowledge base now scoped to whichever card is
+  // in context, a genuinely CROSS-CARD question asked right after discussing one
+  // card ("what cards offer dining perks", "what cards do you reccommend") got
+  // wrongly scoped down to just that one card too, since it doesn't name a card
+  // either. Must resolve across the catalog regardless of context: "what cards
+  // offer dining perks" must surface more than one card (or the Dining
+  // Privileges general script), and "what cards do you reccommend" must reach
+  // Card Recommendation, not the in-context card's own Overview/no-match.
+  // ---------------------------------------------------------------------
+  const crossCardHistory = [{ role: 'user', content: 'Tell me about the World Card / Infinity Card' }];
+  {
+    checks++;
+    const result = await classifyAndRespond('what cards offer dining perks', crossCardHistory);
+    const segments = result.script ? result.script.label.split(' + ') : [];
+    const distinctCards = new Set(segments.filter(s => !CROSS_CARD_GENERAL_LABELS.has(s) && s !== 'Interest Rate / APR' && s !== 'How to Apply').map(s => s.split(' — ')[0]));
+    const hitsGeneral = segments.some(s => CROSS_CARD_GENERAL_LABELS.has(s));
+    if (!result.script || (distinctCards.size <= 1 && !hitsGeneral)) {
+      fail('H-cross-card-question-after-context-must-not-stay-scoped', {
+        message: 'what cards offer dining perks', got: result.script ? result.script.label : result.kind,
+      });
+    }
+  }
+  {
+    checks++;
+    const result = await classifyAndRespond('what cards do you reccommend', crossCardHistory);
+    if (!result.script || result.script.label !== 'Card Recommendation') {
+      fail('H-cross-card-recommendation-after-context-must-not-escalate', {
+        message: 'what cards do you reccommend', got: result.script ? result.script.label : result.kind,
+      });
+    }
+  }
+  // A genuine single-card follow-up must still stay scoped -- the fix above
+  // must not overcorrect into re-opening the Section G leak.
+  {
+    checks++;
+    const result = await classifyAndRespond('are these all the perks it has', crossCardHistory);
+    const segments = result.script ? result.script.label.split(' + ') : [];
+    const leaked = segments.filter(s => !s.startsWith('World Card / Infinity Card') && s !== 'Interest Rate / APR' && s !== 'How to Apply');
+    if (leaked.length) {
+      fail('H-single-card-followup-must-not-regress-to-cross-card', {
+        message: 'are these all the perks it has', leaked, got: result.script && result.script.label,
+      });
+    }
+  }
+
+  // ---------------------------------------------------------------------
   console.log(`Ran ${checks} checks.`);
   console.log(`  Section A/A2 (paraphrase + fuzzy): keyword coverage across ${CARDS.length} cards`);
   console.log(`  Section B (out-of-scope phrasing): ${OOS.length} categories`);
