@@ -524,20 +524,30 @@ async function main() {
       checks++;
       const history = [{ role: 'user', content: `Tell me about the ${card.name}` }];
       const result = await classifyAndRespond(vague, history);
-      if (result.script) {
-        const segments = result.script.label.split(' + ');
-        const leaked = segments.filter(seg => {
-          if (seg.startsWith(card.name + ' — ')) return false;
-          if (seg === 'Interest Rate / APR' || seg === 'How to Apply') return false;
-          return true;
+      // A vague "is that everything?" follow-up must actually answer from the
+      // card's own facts (via VAGUE_SURVEY_RE's deterministic fallback below),
+      // not silently escalate just because no single curated topic keyword
+      // happened to hit -- that was the immediate next bug caught live after the
+      // cross-card leak above was fixed: the escalation was clean (no leakage)
+      // but unhelpful, when the card's own data could fully answer it.
+      if (!result.script) {
+        fail('G2-vague-followup-must-answer-not-escalate', {
+          card: card.id, message: vague, got: result.kind,
         });
-        if (leaked.length) {
-          fail('G-vague-context-followup-must-stay-scoped-to-card', {
-            card: card.id, message: vague, leaked,
-            crossCardGeneralLeaked: leaked.some(seg => CROSS_CARD_GENERAL_LABELS.has(seg)),
-            got: result.script.label,
-          });
-        }
+        continue;
+      }
+      const segments = result.script.label.split(' + ');
+      const leaked = segments.filter(seg => {
+        if (seg.startsWith(card.name + ' — ')) return false;
+        if (seg === 'Interest Rate / APR' || seg === 'How to Apply') return false;
+        return true;
+      });
+      if (leaked.length) {
+        fail('G-vague-context-followup-must-stay-scoped-to-card', {
+          card: card.id, message: vague, leaked,
+          crossCardGeneralLeaked: leaked.some(seg => CROSS_CARD_GENERAL_LABELS.has(seg)),
+          got: result.script.label,
+        });
       }
     }
   }
