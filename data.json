@@ -1266,6 +1266,422 @@
       ],
       "response": "We offer quite a few categories now: everyday cash-back cards like the Happy Card and New Century Card, premium travel cards like the Premier Happy Card, World Card, Happy Unlimited Card, and HAPPY GO Premium Card, family and lifestyle cards like the Happy+ Family Card and C'est Moi Card, travel and commuter cards like the LeXing Card and C'est Moi Travel EasyCard, business cards like the Premier Business Card and Enterprise Elite Gold Card, the virtual iCloud Card for online shopping, co-branded cards such as the eTag Card and China Airlines card, and the Eden Charity Card. Which one would you like to know more about?",
       "responseZh": "我們目前提供多種信用卡類別:日常現金回饋卡如快樂信用卡與New Century信用卡、頂級旅遊卡如頂級快樂卡、世界卡、快樂無限卡與HAPPY GO頂級卡、家庭生活類卡片如樂家＋卡與C'est Moi我的卡、旅遊通勤卡如樂行卡與C'est Moi旅遊悠遊卡、商務卡如頂極商務卡與遠企尊榮金卡、專為網路購物設計的虛擬iCloud信用卡,以及eTag聯名卡、華信航空聯名卡等聯名卡片,還有伊甸愛心卡。請問您想了解哪一張卡呢?"
+    },
+    {
+      "topic": "Lost Card - Standard (Reissue)",
+      "keywords": [
+        "信用卡掛失(一般卡_補卡)"
+      ],
+      "response": "【客服人員話術】今天是民國○年○月○日○點○分，派大星銀行為您執行○○卡的掛失處理，取消掛失密碼是○○○○請您牢記。掛失成立會主動為您補寄新卡，請問您的帳單地址是？(由客戶回答……)，接下來會轉入語音聽取權益宣告，請您聽完後掛斷即可，請稍後，為您轉接。\n\n【簡訊內容】派大星銀行已為您執行信用卡掛失處理，自現在往前推算24小時，如卡片有被盜刷或冒用的情形，派大星銀行會協助您處理。如果您的卡片於今晚11:50以前找回，麻煩請您備妥信用卡於手邊，並需信用卡持卡本人來電取消掛失。我們會與您確認取消密碼，另外，若卡片於掛失期間有交易紀錄，我們擔心有被盜刷或冒用的情形，為了您的用卡安全，本行將無法取消掛失。再次提醒您，若超過今晚11:50，掛失程序正式完成，則無法取消掛失，同時將收取掛失手續費200元將會顯示於下期帳單。本行會主動為您補寄新卡至您的帳單地址，補發信用卡作業約需一星期，因補發的新卡卡號會與原卡號不同，若您的保險費、手機電話費或登錄(機場停車/道路救援)車號設定為原卡號扣款，需麻煩您聯繫商店，變更扣款卡號或重新登錄。",
+      "responseZh": "【客服人員話術】今天是民國○年○月○日○點○分，派大星銀行為您執行○○卡的掛失處理，取消掛失密碼是○○○○請您牢記。掛失成立會主動為您補寄新卡，請問您的帳單地址是？(由客戶回答……)，接下來會轉入語音聽取權益宣告，請您聽完後掛斷即可，請稍後，為您轉接。\n\n【簡訊內容】派大星銀行已為您執行信用卡掛失處理，自現在往前推算24小時，如卡片有被盜刷或冒用的情形，派大星銀行會協助您處理。如果您的卡片於今晚11:50以前找回，麻煩請您備妥信用卡於手邊，並需信用卡持卡本人來電取消掛失。我們會與您確認取消密碼，另外，若卡片於掛失期間有交易紀錄，我們擔心有被盜刷或冒用的情形，為了您的用卡安全，本行將無法取消掛失。再次提醒您，若超過今晚11:50，掛失程序正式完成，則無法取消掛失，同時將收取掛失手續費200元將會顯示於下期帳單。本行會主動為您補寄新卡至您的帳單地址，補發信用卡作業約需一星期，因補發的新卡卡號會與原卡號不同，若您的保險費、手機電話費或登錄(機場停車/道路救援)車號設定為原卡號扣款，需麻煩您聯繫商店，變更扣款卡號或重新登錄。"
+    },
+    {
+      "topic": "Lost Card - Standard (No Reissue)",
+      "keywords": [
+        "信用卡掛失(一般卡_不補卡)"
+      ],
+      "response": "【客服人員話術】今天是民國○年○月○日○點○分，派大星銀行為您執行○○卡的掛失處理，取消掛失密碼是○○○○請您牢記，接下來會轉入語音聽取權益宣告，請您聽完後掛斷即可，請稍後，為您轉接。\n\n【簡訊內容】派大星銀行已為您執行信用卡掛失處理，自現在往前推算24小時，如卡片有被盜刷或冒用的情形，派大星銀行會協助您處理。掛失手續費200元將會顯示於下期帳單。如果您的卡片於今晚11:50以前找回，麻煩請您備妥信用卡於手邊，並需信用卡持卡本人來電取消掛失。我們會與您確認取消密碼，另外，若卡片於掛失期間有交易紀錄，我們擔心有被盜刷或冒用的情形，為了您的用卡安全，本行將無法取消掛失。再次提醒您，若超過今晚11:50，掛失程序正式完成，則無法取消掛失，如需補卡請於三個月內來電申請補卡。",
+      "responseZh": "【客服人員話術】今天是民國○年○月○日○點○分，派大星銀行為您執行○○卡的掛失處理，取消掛失密碼是○○○○請您牢記，接下來會轉入語音聽取權益宣告，請您聽完後掛斷即可，請稍後，為您轉接。\n\n【簡訊內容】派大星銀行已為您執行信用卡掛失處理，自現在往前推算24小時，如卡片有被盜刷或冒用的情形，派大星銀行會協助您處理。掛失手續費200元將會顯示於下期帳單。如果您的卡片於今晚11:50以前找回，麻煩請您備妥信用卡於手邊，並需信用卡持卡本人來電取消掛失。我們會與您確認取消密碼，另外，若卡片於掛失期間有交易紀錄，我們擔心有被盜刷或冒用的情形，為了您的用卡安全，本行將無法取消掛失。再次提醒您，若超過今晚11:50，掛失程序正式完成，則無法取消掛失，如需補卡請於三個月內來電申請補卡。"
+    },
+    {
+      "topic": "Lost Card - EasyCard Card (Reissue, Before Noon)",
+      "keywords": [
+        "信用卡掛失(悠遊聯名卡_補卡、中午12:00前)"
+      ],
+      "response": "【客服人員話術】今天是民國○年○月○日○點○分，派大星銀行為您執行○○卡的掛失處理，取消掛失密碼是○○○○請您牢記。掛失成立會主動為您補寄新卡，請問您的帳單地址是？(由客戶回答……)，接下來會轉入語音聽取權益宣告，請您聽完後掛斷即可，請稍後，為您轉接。\n\n【簡訊內容】派大星銀行已為您執行信用卡掛失處理，自現在往前推算24小時，如卡片有被盜刷或冒用的情形，派大星銀行會協助您處理。而悠遊卡掛失後3小時內被扣款的風險，則由持卡人自行負擔。如果您的卡片於今天中午12:00以前找回，麻煩請您備妥信用卡於手邊，並需信用卡持卡本人來電取消掛失。我們會與您確認取消密碼，另外，若卡片於掛失期間有交易紀錄，我們擔心有被盜刷或冒用的情形，為了您的用卡安全，本行將無法取消掛失。再次提醒您，若超過中午12:00，掛失程序正式完成，則無法取消掛失，同時將收取掛失手續費200元將會顯示於下期帳單。而悠遊卡的儲值餘額將於完成掛失後7個日曆日退回信用卡帳上，同時提醒您，因補發的新卡卡號會與原卡號不同，若您的保險費、手機電話費或登錄(機場停車/道路救援)車號設定為原卡號扣款，需麻煩您聯繫商店，變更扣款卡號或重新登錄。",
+      "responseZh": "【客服人員話術】今天是民國○年○月○日○點○分，派大星銀行為您執行○○卡的掛失處理，取消掛失密碼是○○○○請您牢記。掛失成立會主動為您補寄新卡，請問您的帳單地址是？(由客戶回答……)，接下來會轉入語音聽取權益宣告，請您聽完後掛斷即可，請稍後，為您轉接。\n\n【簡訊內容】派大星銀行已為您執行信用卡掛失處理，自現在往前推算24小時，如卡片有被盜刷或冒用的情形，派大星銀行會協助您處理。而悠遊卡掛失後3小時內被扣款的風險，則由持卡人自行負擔。如果您的卡片於今天中午12:00以前找回，麻煩請您備妥信用卡於手邊，並需信用卡持卡本人來電取消掛失。我們會與您確認取消密碼，另外，若卡片於掛失期間有交易紀錄，我們擔心有被盜刷或冒用的情形，為了您的用卡安全，本行將無法取消掛失。再次提醒您，若超過中午12:00，掛失程序正式完成，則無法取消掛失，同時將收取掛失手續費200元將會顯示於下期帳單。而悠遊卡的儲值餘額將於完成掛失後7個日曆日退回信用卡帳上，同時提醒您，因補發的新卡卡號會與原卡號不同，若您的保險費、手機電話費或登錄(機場停車/道路救援)車號設定為原卡號扣款，需麻煩您聯繫商店，變更扣款卡號或重新登錄。"
+    },
+    {
+      "topic": "Lost Card - EasyCard Card (Reissue, After Noon)",
+      "keywords": [
+        "信用卡掛失(悠遊聯名卡_補卡、中午12:00後)"
+      ],
+      "response": "【客服人員話術】今天是民國○年○月○日○點○分，派大星銀行為您執行○○卡的掛失處理，取消掛失密碼是○○○○請您牢記。掛失成立會主動為您補寄新卡，請問您的帳單地址是？(由客戶回答……)，接下來會轉入語音聽取權益宣告，請您聽完後掛斷即可，請稍後，為您轉接。\n\n【簡訊內容】派大星銀行已為您執行信用卡掛失處理，自現在往前推算24小時，如卡片有被盜刷或冒用的情形，派大星銀行會協助您處理。而悠遊卡掛失後3小時內被扣款的風險，則由持卡人自行負擔。如果您的卡片於今晚11:50以前找回，麻煩請您備妥信用卡於手邊，並需信用卡持卡本人來電取消掛失。我們會與您確認取消密碼，另外，若卡片於掛失期間有交易紀錄，我們擔心有被盜刷或冒用的情形，為了您的用卡安全，本行將無法取消掛失。再次提醒您，若超過今晚11:50，掛失程序正式完成，則無法取消掛失，同時將收取掛失手續費200元將會顯示於下期帳單。而悠遊卡的儲值餘額將於完成掛失後7個日曆日退回信用卡帳上，同時提醒您，因補發的新卡卡號會與原卡號不同，若您的保險費、手機電話費或登錄(機場停車/道路救援)車號設定為原卡號扣款，需麻煩您聯繫商店，變更扣款卡號或重新登錄。",
+      "responseZh": "【客服人員話術】今天是民國○年○月○日○點○分，派大星銀行為您執行○○卡的掛失處理，取消掛失密碼是○○○○請您牢記。掛失成立會主動為您補寄新卡，請問您的帳單地址是？(由客戶回答……)，接下來會轉入語音聽取權益宣告，請您聽完後掛斷即可，請稍後，為您轉接。\n\n【簡訊內容】派大星銀行已為您執行信用卡掛失處理，自現在往前推算24小時，如卡片有被盜刷或冒用的情形，派大星銀行會協助您處理。而悠遊卡掛失後3小時內被扣款的風險，則由持卡人自行負擔。如果您的卡片於今晚11:50以前找回，麻煩請您備妥信用卡於手邊，並需信用卡持卡本人來電取消掛失。我們會與您確認取消密碼，另外，若卡片於掛失期間有交易紀錄，我們擔心有被盜刷或冒用的情形，為了您的用卡安全，本行將無法取消掛失。再次提醒您，若超過今晚11:50，掛失程序正式完成，則無法取消掛失，同時將收取掛失手續費200元將會顯示於下期帳單。而悠遊卡的儲值餘額將於完成掛失後7個日曆日退回信用卡帳上，同時提醒您，因補發的新卡卡號會與原卡號不同，若您的保險費、手機電話費或登錄(機場停車/道路救援)車號設定為原卡號扣款，需麻煩您聯繫商店，變更扣款卡號或重新登錄。"
+    },
+    {
+      "topic": "Lost Card - EasyCard Card (No Reissue, Before Noon)",
+      "keywords": [
+        "信用卡掛失(悠遊聯名卡_不補卡、中午12:00前)"
+      ],
+      "response": "【客服人員話術】今天是民國○年○月○日○點○分，派大星銀行為您執行○○卡的掛失處理，取消掛失密碼是○○○○請您牢記，接下來會轉入語音聽取權益宣告，請您聽完後掛斷即可，請稍後，為您轉接。\n\n【簡訊內容】派大星銀行已為您執行信用卡掛失處理，自現在往前推算24小時，如卡片有被盜刷或冒用的情形，派大星銀行會協助您處理。而悠遊卡掛失後3小時內被扣款的風險，則由持卡人自行負擔。如果您的卡片於今天中午12:00以前找回，麻煩請您備妥信用卡於手邊，並需信用卡持卡本人來電取消掛失。我們會與您確認取消密碼，另外，若卡片於掛失期間有交易紀錄，我們擔心有被盜刷或冒用的情形，為了您的用卡安全，本行將無法取消掛失。再次提醒您，若超過中午12:00，掛失程序正式完成，則無法取消掛失，同時將收取掛失手續費200元將會顯示於下期帳單。後續若需補卡請於三個月內來電申請補卡。而悠遊卡的儲值餘額將於完成掛失後7個日曆日退回信用卡帳上。",
+      "responseZh": "【客服人員話術】今天是民國○年○月○日○點○分，派大星銀行為您執行○○卡的掛失處理，取消掛失密碼是○○○○請您牢記，接下來會轉入語音聽取權益宣告，請您聽完後掛斷即可，請稍後，為您轉接。\n\n【簡訊內容】派大星銀行已為您執行信用卡掛失處理，自現在往前推算24小時，如卡片有被盜刷或冒用的情形，派大星銀行會協助您處理。而悠遊卡掛失後3小時內被扣款的風險，則由持卡人自行負擔。如果您的卡片於今天中午12:00以前找回，麻煩請您備妥信用卡於手邊，並需信用卡持卡本人來電取消掛失。我們會與您確認取消密碼，另外，若卡片於掛失期間有交易紀錄，我們擔心有被盜刷或冒用的情形，為了您的用卡安全，本行將無法取消掛失。再次提醒您，若超過中午12:00，掛失程序正式完成，則無法取消掛失，同時將收取掛失手續費200元將會顯示於下期帳單。後續若需補卡請於三個月內來電申請補卡。而悠遊卡的儲值餘額將於完成掛失後7個日曆日退回信用卡帳上。"
+    },
+    {
+      "topic": "Lost Card - EasyCard Card (No Reissue, After Noon)",
+      "keywords": [
+        "信用卡掛失(悠遊聯名卡_不補卡、中午12:00後)"
+      ],
+      "response": "【客服人員話術】今天是民國○年○月○日○點○分，派大星銀行為您執行○○卡的掛失處理，取消掛失密碼是○○○○請您牢記，接下來會轉入語音聽取權益宣告，請您聽完後掛斷即可，請稍後，為您轉接。\n\n【簡訊內容】派大星銀行已為您執行信用卡掛失處理，自現在往前推算24小時，如卡片有被盜刷或冒用的情形，派大星銀行會協助您處理。而悠遊卡掛失後3小時內被扣款的風險，則由持卡人自行負擔。如果您的卡片於今晚11:50以前找回，麻煩請您備妥信用卡於手邊，並需信用卡持卡本人來電取消掛失。我們會與您確認取消密碼，另外，若卡片於掛失期間有交易紀錄，我們擔心有被盜刷或冒用的情形，為了您的用卡安全，本行將無法取消掛失。再次提醒您，若超過今晚11:50，掛失程序正式完成，則無法取消掛失，同時將收取掛失手續費200元將會顯示於下期帳單。後續若需補卡請於三個月內來電申請補卡。而悠遊卡的儲值餘額將於完成掛失後7個日曆日退回信用卡帳上。",
+      "responseZh": "【客服人員話術】今天是民國○年○月○日○點○分，派大星銀行為您執行○○卡的掛失處理，取消掛失密碼是○○○○請您牢記，接下來會轉入語音聽取權益宣告，請您聽完後掛斷即可，請稍後，為您轉接。\n\n【簡訊內容】派大星銀行已為您執行信用卡掛失處理，自現在往前推算24小時，如卡片有被盜刷或冒用的情形，派大星銀行會協助您處理。而悠遊卡掛失後3小時內被扣款的風險，則由持卡人自行負擔。如果您的卡片於今晚11:50以前找回，麻煩請您備妥信用卡於手邊，並需信用卡持卡本人來電取消掛失。我們會與您確認取消密碼，另外，若卡片於掛失期間有交易紀錄，我們擔心有被盜刷或冒用的情形，為了您的用卡安全，本行將無法取消掛失。再次提醒您，若超過今晚11:50，掛失程序正式完成，則無法取消掛失，同時將收取掛失手續費200元將會顯示於下期帳單。後續若需補卡請於三個月內來電申請補卡。而悠遊卡的儲值餘額將於完成掛失後7個日曆日退回信用卡帳上。"
+    },
+    {
+      "topic": "Damaged Card Reissue - Standard",
+      "keywords": [
+        "信用卡毀損補發(一般卡)"
+      ],
+      "response": "【客服人員話術】今天是民國○年○月○日○點○分，派大星銀行為XXX先生小姐的○○卡做毀損補發，從這個時間開始請您將手邊的信用卡自行剪斷銷毀不再做使用，避免風險產生；若沒有其他問題的話，原則上大約一星期左右會將新卡寄到您的帳單地址。\n\n【簡訊內容】無",
+      "responseZh": "【客服人員話術】今天是民國○年○月○日○點○分，派大星銀行為XXX先生小姐的○○卡做毀損補發，從這個時間開始請您將手邊的信用卡自行剪斷銷毀不再做使用，避免風險產生；若沒有其他問題的話，原則上大約一星期左右會將新卡寄到您的帳單地址。\n\n【簡訊內容】無"
+    },
+    {
+      "topic": "Damaged Card Reissue - EasyCard Card",
+      "keywords": [
+        "信用卡毀損補發(悠遊聯名卡)"
+      ],
+      "response": "【客服人員話術】今天是民國○年○月○日○點○分，派大星銀行為XXX先生小姐的○○卡做毀損補發，接下來會轉入語音聽取權益宣告，請您聽完後掛斷即可，請稍後，為您轉接。\n\n【簡訊內容】從這個時間開始請您不要再使用手邊的信用卡，若舊卡內仍有餘額您可選擇到悠遊卡加值設備(AVM)、全家便利商店Famiport辦理退款或親至悠遊卡客服中心退費後再將舊卡剪斷銷毀 ，避免風險產生；若沒有其他問題的話，原則上大約一星期左右會將新卡寄到您的帳單地址。",
+      "responseZh": "【客服人員話術】今天是民國○年○月○日○點○分，派大星銀行為XXX先生小姐的○○卡做毀損補發，接下來會轉入語音聽取權益宣告，請您聽完後掛斷即可，請稍後，為您轉接。\n\n【簡訊內容】從這個時間開始請您不要再使用手邊的信用卡，若舊卡內仍有餘額您可選擇到悠遊卡加值設備(AVM)、全家便利商店Famiport辦理退款或親至悠遊卡客服中心退費後再將舊卡剪斷銷毀 ，避免風險產生；若沒有其他問題的話，原則上大約一星期左右會將新卡寄到您的帳單地址。"
+    },
+    {
+      "topic": "Card Cancellation - Standard",
+      "keywords": [
+        "信用卡停卡(一般卡)"
+      ],
+      "response": "【客服人員話術】派大星銀行在民國XX 年X月X日，為X先生／小姐取消卡片末四碼為XXXX的信用卡。提醒您，卡片的紅利點數和相關權益將會一併中止，請您自行將卡片剪碎作廢，避免風險產生。謝謝您使用派大星銀行信用卡，希望能有再次為您服務的機會。\n\n【簡訊內容】無",
+      "responseZh": "【客服人員話術】派大星銀行在民國XX 年X月X日，為X先生／小姐取消卡片末四碼為XXXX的信用卡。提醒您，卡片的紅利點數和相關權益將會一併中止，請您自行將卡片剪碎作廢，避免風險產生。謝謝您使用派大星銀行信用卡，希望能有再次為您服務的機會。\n\n【簡訊內容】無"
+    },
+    {
+      "topic": "Card Cancellation - EasyCard Card",
+      "keywords": [
+        "信用卡停卡(悠遊聯名卡)"
+      ],
+      "response": "【客服人員話術】派大星銀行在民國○年○月○日，為X先生/小姐取消卡片末四碼為OOOO的信用卡停用，接下來會轉入語音聽取權益宣告，請您聽完後掛斷即可，請稍後，為您轉接。\n\n【簡訊內容】提醒您，卡片的紅利點數和相關權益會一併中止，若舊卡內仍有餘額您可選擇到悠遊卡加值設備(AVM)、全家便利商店Famiport辦理退款或親至悠遊卡客服中心退費後再將舊卡剪斷銷毀，避免風險產生。謝謝您使用派大星銀行信用卡，希望能有再次為您服務的機會。",
+      "responseZh": "【客服人員話術】派大星銀行在民國○年○月○日，為X先生/小姐取消卡片末四碼為OOOO的信用卡停用，接下來會轉入語音聽取權益宣告，請您聽完後掛斷即可，請稍後，為您轉接。\n\n【簡訊內容】提醒您，卡片的紅利點數和相關權益會一併中止，若舊卡內仍有餘額您可選擇到悠遊卡加值設備(AVM)、全家便利商店Famiport辦理退款或親至悠遊卡客服中心退費後再將舊卡剪斷銷毀，避免風險產生。謝謝您使用派大星銀行信用卡，希望能有再次為您服務的機會。"
+    },
+    {
+      "topic": "eTag Auto Reload Application - Same Owner",
+      "keywords": [
+        "信用卡eTag自動儲值申請(持卡人與車主同一人)"
+      ],
+      "response": "【客服人員話術】與您再次確認，您申辦的是：(重複確認客戶申辦的服務、資料)，是否正確? 接下來會轉入語音聽取權益宣告，請您聽完後掛斷即可，請稍後，為您轉接。\n\n【簡訊內容】您的申請作業已經完成，請您留意後續申辦簡訊通知。特別提醒您，服務未生效前，產生的費用請記得自行繳費或加值。本次信用卡自動儲值功能首次申請成功後，若您的eTag帳戶餘額低於120元，將從您的信用卡扣款400元到您的eTag帳戶中，停車費則由您的信用卡代繳。\n如您的信用卡因遺失、毀損、到期續卡等情事而換發新卡時，您同意貴行自動轉換以您的其他信用卡正卡自動儲值或代繳停車費，不必重新申請。\n現在已透過簡訊/email發送服務約定事項條款連結給您，稍後請您留意一下，為確保您的權益，請務必閱讀完。若未收到請您再與本行聯繫，或請至派大星銀行官網詳閱。有任何問題，請您再致電客服中心詢問。",
+      "responseZh": "【客服人員話術】與您再次確認，您申辦的是：(重複確認客戶申辦的服務、資料)，是否正確? 接下來會轉入語音聽取權益宣告，請您聽完後掛斷即可，請稍後，為您轉接。\n\n【簡訊內容】您的申請作業已經完成，請您留意後續申辦簡訊通知。特別提醒您，服務未生效前，產生的費用請記得自行繳費或加值。本次信用卡自動儲值功能首次申請成功後，若您的eTag帳戶餘額低於120元，將從您的信用卡扣款400元到您的eTag帳戶中，停車費則由您的信用卡代繳。\n如您的信用卡因遺失、毀損、到期續卡等情事而換發新卡時，您同意貴行自動轉換以您的其他信用卡正卡自動儲值或代繳停車費，不必重新申請。\n現在已透過簡訊/email發送服務約定事項條款連結給您，稍後請您留意一下，為確保您的權益，請務必閱讀完。若未收到請您再與本行聯繫，或請至派大星銀行官網詳閱。有任何問題，請您再致電客服中心詢問。"
+    },
+    {
+      "topic": "eTag Auto Reload Application - Different Owner",
+      "keywords": [
+        "信用卡eTag自動儲值申請(持卡人與車主不同人)"
+      ],
+      "response": "【客服人員話術】與您再次確認，您申辦的是：(重複確認客戶申辦的服務、資料)，是否正確? 接下來會轉入語音聽取權益宣告，請您聽完後掛斷即可，請稍後，為您轉接。\n\n【簡訊內容】您的申請作業已經完成，請您留意後續申辦簡訊通知。特別提醒您，服務未生效前，產生的費用請記得自行繳費或加值。本次信用卡自動儲值功能首次申請成功後，若您的eTag帳戶餘額低於120元，將從您的信用卡扣款400元到您的eTag帳戶中，停車費則由您的信用卡代繳。如您的信用卡因遺失、毀損、到期續卡等情事而換發新卡時，您同意貴行自動轉換以您的其他信用卡正卡自動儲值或代繳停車費，不必重新申請。\n現在已透過簡訊/email發送服務約定事項條款連結給您，稍後請您留意一下，為確保您的權益，請務必閱讀完。若未收到請您再與本行聯繫，或請至派大星銀行官網詳閱。由於車主的個資並非由車主本人提供給本行，依個資法相關規定，本行也會以簡訊/email寄送個資告知事項給車主，請您提醒車主留意並務必詳讀，以保障車主權益。有任何問題，請您再致電客服中心詢問。",
+      "responseZh": "【客服人員話術】與您再次確認，您申辦的是：(重複確認客戶申辦的服務、資料)，是否正確? 接下來會轉入語音聽取權益宣告，請您聽完後掛斷即可，請稍後，為您轉接。\n\n【簡訊內容】您的申請作業已經完成，請您留意後續申辦簡訊通知。特別提醒您，服務未生效前，產生的費用請記得自行繳費或加值。本次信用卡自動儲值功能首次申請成功後，若您的eTag帳戶餘額低於120元，將從您的信用卡扣款400元到您的eTag帳戶中，停車費則由您的信用卡代繳。如您的信用卡因遺失、毀損、到期續卡等情事而換發新卡時，您同意貴行自動轉換以您的其他信用卡正卡自動儲值或代繳停車費，不必重新申請。\n現在已透過簡訊/email發送服務約定事項條款連結給您，稍後請您留意一下，為確保您的權益，請務必閱讀完。若未收到請您再與本行聯繫，或請至派大星銀行官網詳閱。由於車主的個資並非由車主本人提供給本行，依個資法相關規定，本行也會以簡訊/email寄送個資告知事項給車主，請您提醒車主留意並務必詳讀，以保障車主權益。有任何問題，請您再致電客服中心詢問。"
+    },
+    {
+      "topic": "Smart Parking Application - Same Owner",
+      "keywords": [
+        "信用卡智慧停車服務申請(持卡人與車主同一人)"
+      ],
+      "response": "【客服人員話術】信用卡代繳eTag智慧停車費(特約臨時停車)之停車場服務範圍包含縣市政府路邊停車格，請問您同意由遠通電收協助申辦服務嗎?範圍以遠通電收公告為準※如客戶不同意，則無法辦理\n與您再次確認，您申辦的是：(重複確認客戶申辦的服務、資料)，是否正確? 接下來會轉入語音聽取權益宣告，請您聽完後掛斷即可，請稍後，為您轉接。\n\n【簡訊內容】您的申請作業已經完成，請您留意後續申辦簡訊通知。特別提醒您，服務未生效前，產生的費用請記得自行繳費。\n申請成功後，停車費將由您的信用卡代繳。\n如您的信用卡因遺失、毀損、到期續卡等情事而換發新卡時，您同意貴行自動轉換以您的其他信用卡正卡自動儲值或代繳停車費，不必重新申請。\n現在已透過簡訊/email發送服務約定事項條款連結給您，稍後請您留意一下，為確保您的權益，請務必閱讀完。若未收到請您再與本行聯繫，或請至派大星銀行官網詳閱。有任何問題，請您再致電客服中心詢問。",
+      "responseZh": "【客服人員話術】信用卡代繳eTag智慧停車費(特約臨時停車)之停車場服務範圍包含縣市政府路邊停車格，請問您同意由遠通電收協助申辦服務嗎?範圍以遠通電收公告為準※如客戶不同意，則無法辦理\n與您再次確認，您申辦的是：(重複確認客戶申辦的服務、資料)，是否正確? 接下來會轉入語音聽取權益宣告，請您聽完後掛斷即可，請稍後，為您轉接。\n\n【簡訊內容】您的申請作業已經完成，請您留意後續申辦簡訊通知。特別提醒您，服務未生效前，產生的費用請記得自行繳費。\n申請成功後，停車費將由您的信用卡代繳。\n如您的信用卡因遺失、毀損、到期續卡等情事而換發新卡時，您同意貴行自動轉換以您的其他信用卡正卡自動儲值或代繳停車費，不必重新申請。\n現在已透過簡訊/email發送服務約定事項條款連結給您，稍後請您留意一下，為確保您的權益，請務必閱讀完。若未收到請您再與本行聯繫，或請至派大星銀行官網詳閱。有任何問題，請您再致電客服中心詢問。"
+    },
+    {
+      "topic": "Smart Parking Application - Different Owner",
+      "keywords": [
+        "信用卡智慧停車服務申請(持卡人與車主不同人)"
+      ],
+      "response": "【客服人員話術】信用卡代繳eTag智慧停車費(特約臨時停車)之停車場服務範圍包含縣市政府路邊停車格，請問您同意由遠通電收協助申辦服務嗎?範圍以遠通電收公告為準※如客戶不同意，則無法辦理\n與您再次確認，您申辦的是：(重複確認客戶申辦的服務、資料)，是否正確? 接下來會轉入語音聽取權益宣告，請您聽完後掛斷即可，請稍後，為您轉接。\n\n【簡訊內容】您的申請作業已經完成，請您留意後續申辦簡訊通知。特別提醒您，服務未生效前，產生的費用請記得自行繳費。\n申請成功後，停車費將由您的信用卡代繳。\n如您的信用卡因遺失、毀損、到期續卡等情事而換發新卡時，您同意貴行自動轉換以您的其他信用卡正卡自動儲值或代繳停車費，不必重新申請。\n現在已透過簡訊/email發送服務約定事項條款連結給您，稍後請您留意一下，為確保您的權益，請務必閱讀完。若未收到請您再與本行聯繫，或請至派大星銀行官網詳閱。由於車主的個資並非由車主本人提供給本行，依個資法相關規定，本行也會以簡訊/email寄送個資告知事項給車主，請您提醒車主留意並務必詳讀，以保障車主權益。有任何問題，請您再致電客服中心詢問。",
+      "responseZh": "【客服人員話術】信用卡代繳eTag智慧停車費(特約臨時停車)之停車場服務範圍包含縣市政府路邊停車格，請問您同意由遠通電收協助申辦服務嗎?範圍以遠通電收公告為準※如客戶不同意，則無法辦理\n與您再次確認，您申辦的是：(重複確認客戶申辦的服務、資料)，是否正確? 接下來會轉入語音聽取權益宣告，請您聽完後掛斷即可，請稍後，為您轉接。\n\n【簡訊內容】您的申請作業已經完成，請您留意後續申辦簡訊通知。特別提醒您，服務未生效前，產生的費用請記得自行繳費。\n申請成功後，停車費將由您的信用卡代繳。\n如您的信用卡因遺失、毀損、到期續卡等情事而換發新卡時，您同意貴行自動轉換以您的其他信用卡正卡自動儲值或代繳停車費，不必重新申請。\n現在已透過簡訊/email發送服務約定事項條款連結給您，稍後請您留意一下，為確保您的權益，請務必閱讀完。若未收到請您再與本行聯繫，或請至派大星銀行官網詳閱。由於車主的個資並非由車主本人提供給本行，依個資法相關規定，本行也會以簡訊/email寄送個資告知事項給車主，請您提醒車主留意並務必詳讀，以保障車主權益。有任何問題，請您再致電客服中心詢問。"
+    },
+    {
+      "topic": "eTag Auto Reload Plus Smart Parking Application - Same Owner",
+      "keywords": [
+        "信用卡eTag自動儲值+智慧停車服務申請(持卡人與車主同一人)"
+      ],
+      "response": "【客服人員話術】信用卡代繳eTag智慧停車費(特約臨時停車)之停車場服務範圍包含縣市政府路邊停車格，請問您同意由遠通電收協助申辦服務嗎?範圍以遠通電收公告為準※如客戶不同意，則無法辦理\n與您再次確認，您申辦的是：(重複確認客戶申辦的服務、資料)，是否正確? 接下來會轉入語音聽取權益宣告，請您聽完後掛斷即可，請稍後，為您轉接。\n\n【簡訊內容】您的申請作業已經完成，請您留意後續申辦簡訊通知。特別提醒您，服務未生效前，產生的費用請記得自行繳費或加值。\n本次信用卡自動儲值功能首次申請成功後，若您的eTag帳戶餘額低於120元，將從您的信用卡扣款400元到您的eTag帳戶中，停車費則由您的信用卡代繳。\n如您的信用卡因遺失、毀損、到期續卡等情事而換發新卡時，您同意貴行自動轉換以您的其他信用卡正卡自動儲值或代繳停車費，不必重新申請。\n現在已透過簡訊/email發送服務約定事項條款連結給您，稍後請您留意一下，為確保您的權益，請務必閱讀完。若未收到請您再與本行聯繫，或請至派大星銀行官網詳閱。有任何問題，請您再致電客服中心詢問。",
+      "responseZh": "【客服人員話術】信用卡代繳eTag智慧停車費(特約臨時停車)之停車場服務範圍包含縣市政府路邊停車格，請問您同意由遠通電收協助申辦服務嗎?範圍以遠通電收公告為準※如客戶不同意，則無法辦理\n與您再次確認，您申辦的是：(重複確認客戶申辦的服務、資料)，是否正確? 接下來會轉入語音聽取權益宣告，請您聽完後掛斷即可，請稍後，為您轉接。\n\n【簡訊內容】您的申請作業已經完成，請您留意後續申辦簡訊通知。特別提醒您，服務未生效前，產生的費用請記得自行繳費或加值。\n本次信用卡自動儲值功能首次申請成功後，若您的eTag帳戶餘額低於120元，將從您的信用卡扣款400元到您的eTag帳戶中，停車費則由您的信用卡代繳。\n如您的信用卡因遺失、毀損、到期續卡等情事而換發新卡時，您同意貴行自動轉換以您的其他信用卡正卡自動儲值或代繳停車費，不必重新申請。\n現在已透過簡訊/email發送服務約定事項條款連結給您，稍後請您留意一下，為確保您的權益，請務必閱讀完。若未收到請您再與本行聯繫，或請至派大星銀行官網詳閱。有任何問題，請您再致電客服中心詢問。"
+    },
+    {
+      "topic": "eTag Auto Reload Plus Smart Parking Application - Different Owner",
+      "keywords": [
+        "信用卡eTag自動儲值+智慧停車服務申請(持卡人與車主不同人)"
+      ],
+      "response": "【客服人員話術】信用卡代繳eTag智慧停車費(特約臨時停車)之停車場服務範圍包含縣市政府路邊停車格，請問您同意由遠通電收協助申辦服務嗎?範圍以遠通電收公告為準※如客戶不同意，則無法辦理\n與您再次確認，您申辦的是：(重複確認客戶申辦的服務、資料)，是否正確? 接下來會轉入語音聽取權益宣告，請您聽完後掛斷即可，請稍後，為您轉接。\n\n【簡訊內容】您的申請作業已經完成，請您留意後續申辦簡訊通知。特別提醒您，服務未生效前，產生的費用請記得自行繳費或加值。\n本次信用卡自動儲值功能首次申請成功後，若您的eTag帳戶餘額低於120元，將從您的信用卡扣款400元到您的eTag帳戶中，停車費則由您的信用卡代繳。\n如您的信用卡因遺失、毀損、到期續卡等情事而換發新卡時，您同意貴行自動轉換以您的其他信用卡正卡自動儲值或代繳停車費，不必重新申請。\n現在已透過簡訊/email發送服務約定事項條款連結給您，稍後請您留意一下，為確保您的權益，請務必閱讀完。若未收到請您再與本行聯繫，或請至派大星銀行官網詳閱。有任何問題，請您再致電客服中心詢問。\n由於車主的個資並非由車主本人提供給本行，依個資法相關規定，本行也會以簡訊/email寄送個資告知事項給車主，請您提醒車主留意並務必詳讀，以保障車主權益。有任何問題，請您再致電客服中心詢問。",
+      "responseZh": "【客服人員話術】信用卡代繳eTag智慧停車費(特約臨時停車)之停車場服務範圍包含縣市政府路邊停車格，請問您同意由遠通電收協助申辦服務嗎?範圍以遠通電收公告為準※如客戶不同意，則無法辦理\n與您再次確認，您申辦的是：(重複確認客戶申辦的服務、資料)，是否正確? 接下來會轉入語音聽取權益宣告，請您聽完後掛斷即可，請稍後，為您轉接。\n\n【簡訊內容】您的申請作業已經完成，請您留意後續申辦簡訊通知。特別提醒您，服務未生效前，產生的費用請記得自行繳費或加值。\n本次信用卡自動儲值功能首次申請成功後，若您的eTag帳戶餘額低於120元，將從您的信用卡扣款400元到您的eTag帳戶中，停車費則由您的信用卡代繳。\n如您的信用卡因遺失、毀損、到期續卡等情事而換發新卡時，您同意貴行自動轉換以您的其他信用卡正卡自動儲值或代繳停車費，不必重新申請。\n現在已透過簡訊/email發送服務約定事項條款連結給您，稍後請您留意一下，為確保您的權益，請務必閱讀完。若未收到請您再與本行聯繫，或請至派大星銀行官網詳閱。有任何問題，請您再致電客服中心詢問。\n由於車主的個資並非由車主本人提供給本行，依個資法相關規定，本行也會以簡訊/email寄送個資告知事項給車主，請您提醒車主留意並務必詳讀，以保障車主權益。有任何問題，請您再致電客服中心詢問。"
+    },
+    {
+      "topic": "Terminate eTag Auto Reload Service",
+      "keywords": [
+        "信用卡終止eTag自動儲值服務"
+      ],
+      "response": "【客服人員話術】與您再次確認，您終止的是：(重複確認客戶終止的服務、資料)，是否正確?接下來會轉入語音聽取權益宣告，請您聽完後掛斷即可，請稍後，為您轉接。\n\n【簡訊內容】終止作業時程需3個工作日，但實際終止時間依本行系統為準，實際終止前產生之自動加值消費仍會列於信用卡帳單仍需繳款，也請您告知車主本項服務已終止，若有任何問題，請再與本行或遠通電收聯繫。",
+      "responseZh": "【客服人員話術】與您再次確認，您終止的是：(重複確認客戶終止的服務、資料)，是否正確?接下來會轉入語音聽取權益宣告，請您聽完後掛斷即可，請稍後，為您轉接。\n\n【簡訊內容】終止作業時程需3個工作日，但實際終止時間依本行系統為準，實際終止前產生之自動加值消費仍會列於信用卡帳單仍需繳款，也請您告知車主本項服務已終止，若有任何問題，請再與本行或遠通電收聯繫。"
+    },
+    {
+      "topic": "Terminate Smart Parking Service",
+      "keywords": [
+        "信用卡終止智慧停車服務"
+      ],
+      "response": "【客服人員話術】與您再次確認，您終止的是：(重複確認客戶終止的服務、資料)，是否正確?接下來會轉入語音聽取權益宣告，請您聽完後掛斷即可，請稍後，為您轉接。\n\n【簡訊內容】終止作業時程需3個工作日，但實際終止時間依本行系統為準，實際終止前產生之eTag智慧停車費扣款消費仍會列於信用卡帳單仍需繳款。提醒您，您的自動儲值尚未終止，若您的eTag帳戶餘額低於120元，將從您的信用卡扣款400元到您的eTag帳戶中。若有任何問題，請再與本行或遠通電收聯繫。",
+      "responseZh": "【客服人員話術】與您再次確認，您終止的是：(重複確認客戶終止的服務、資料)，是否正確?接下來會轉入語音聽取權益宣告，請您聽完後掛斷即可，請稍後，為您轉接。\n\n【簡訊內容】終止作業時程需3個工作日，但實際終止時間依本行系統為準，實際終止前產生之eTag智慧停車費扣款消費仍會列於信用卡帳單仍需繳款。提醒您，您的自動儲值尚未終止，若您的eTag帳戶餘額低於120元，將從您的信用卡扣款400元到您的eTag帳戶中。若有任何問題，請再與本行或遠通電收聯繫。"
+    },
+    {
+      "topic": "Terminate eTag Auto Reload Plus Smart Parking Service",
+      "keywords": [
+        "信用卡終止eTag自動儲值+eTag智慧停車服務"
+      ],
+      "response": "【客服人員話術】提醒您，終止自動儲值服務將同步終止智慧停車，確認要終止嗎?\n與您再次確認，您終止的是：(重複確認客戶終止的服務、資料)，是否正確? 接下來會轉入語音聽取權益宣告，請您聽完後掛斷即可，請稍後，為您轉接。\n\n【簡訊內容】終止作業時程需3個工作日，但實際終止時間依本行系統為準，實際終止前產生之自動加值或智慧停車費扣款消費仍會列於信用卡帳單仍需繳款，也請您告知車主本項服務已終止，若有任何問題，請再與本行或遠通電收聯繫。",
+      "responseZh": "【客服人員話術】提醒您，終止自動儲值服務將同步終止智慧停車，確認要終止嗎?\n與您再次確認，您終止的是：(重複確認客戶終止的服務、資料)，是否正確? 接下來會轉入語音聽取權益宣告，請您聽完後掛斷即可，請稍後，為您轉接。\n\n【簡訊內容】終止作業時程需3個工作日，但實際終止時間依本行系統為準，實際終止前產生之自動加值或智慧停車費扣款消費仍會列於信用卡帳單仍需繳款，也請您告知車主本項服務已終止，若有任何問題，請再與本行或遠通電收聯繫。"
+    },
+    {
+      "topic": "Installment Plan - Single Transaction",
+      "keywords": [
+        "信用卡銷售_單筆消費分期"
+      ],
+      "response": "○○先生/小姐您好，您近期有筆○○元的新增消費符合我們的優惠分期專案，每萬元每個月只收○○元的利息，比循環利率還要低，要不要我幫您試算一下?\n(試算後客戶同意)\n▲您申請的方案為單筆分期，金額為$○○元、分○○期、首期利息為○○元、每期利息○○元、首期應繳金額為○○元、首期外每期應繳金額為○○元，總費用年百分率為○○%。若要提前結清，建議您等繳足一半期數或12期後再提出申請，這樣才不會被收取提前清償違約金$500元。\n\n(若分期註記目前為N)\n▲提醒您！因首次辦理消費分期需同意分期相關約定才能生效，請問方便協助您在派大星銀行官網或以EMAIL、傳真或郵寄分期約定書的方式給您辦理呢？",
+      "responseZh": "○○先生/小姐您好，您近期有筆○○元的新增消費符合我們的優惠分期專案，每萬元每個月只收○○元的利息，比循環利率還要低，要不要我幫您試算一下?\n(試算後客戶同意)\n▲您申請的方案為單筆分期，金額為$○○元、分○○期、首期利息為○○元、每期利息○○元、首期應繳金額為○○元、首期外每期應繳金額為○○元，總費用年百分率為○○%。若要提前結清，建議您等繳足一半期數或12期後再提出申請，這樣才不會被收取提前清償違約金$500元。\n\n(若分期註記目前為N)\n▲提醒您！因首次辦理消費分期需同意分期相關約定才能生效，請問方便協助您在派大星銀行官網或以EMAIL、傳真或郵寄分期約定書的方式給您辦理呢？"
+    },
+    {
+      "topic": "Installment Plan - Total Spending",
+      "keywords": [
+        "信用卡銷售_總額消費分期"
+      ],
+      "response": "○○先生/小姐您好，您近期有新增○○多元的消費符合我們的優惠分期專案，每萬元每個月只收○○元的利息，比循環利率還要低，要不要我幫您試算一下?\n(試算後客戶同意)\n▲您申請的方案為總額分期，金額為$○○元、分○○期、首期利息為○○元、每期利息○○元、首期應繳金額為○○元、首期外每期應繳金額為○○元，總費用年百分率為○○%。若要提前結清，建議您等繳足一半期數或12期後再提出申請，這樣才不會被收取提前清償違約金$500元，另提醒您總額分期實際生效金額以結帳當下請款金額為主。\n\n(若分期註記目前為N)\n▲提醒您！因首次辦理消費分期需同意分期相關約定才能生效，請問方便協助您在派大星銀行官網或以EMAIL、傳真或郵寄分期約定書的方式給您辦理呢？\n\n請留意客戶額度是否會超過100%，若額度已滿請提醒客戶不要再做其他新增消費，避免分期失效。",
+      "responseZh": "○○先生/小姐您好，您近期有新增○○多元的消費符合我們的優惠分期專案，每萬元每個月只收○○元的利息，比循環利率還要低，要不要我幫您試算一下?\n(試算後客戶同意)\n▲您申請的方案為總額分期，金額為$○○元、分○○期、首期利息為○○元、每期利息○○元、首期應繳金額為○○元、首期外每期應繳金額為○○元，總費用年百分率為○○%。若要提前結清，建議您等繳足一半期數或12期後再提出申請，這樣才不會被收取提前清償違約金$500元，另提醒您總額分期實際生效金額以結帳當下請款金額為主。\n\n(若分期註記目前為N)\n▲提醒您！因首次辦理消費分期需同意分期相關約定才能生效，請問方便協助您在派大星銀行官網或以EMAIL、傳真或郵寄分期約定書的方式給您辦理呢？\n\n請留意客戶額度是否會超過100%，若額度已滿請提醒客戶不要再做其他新增消費，避免分期失效。"
+    },
+    {
+      "topic": "Installment Plan - Statement Billing",
+      "keywords": [
+        "信用卡銷售_信用卡帳單分期"
+      ],
+      "response": "○○先生/小姐您好，您這期帳單○○多元的消費符合我們的優惠分期專案，每萬元每個月只收○○元的利息，比循環利率還要低，要不要我幫您試算一下?\n(試算後客戶同意)\n▲您申請的是○月○日結帳的帳單，分○○期，最高可申請金額為$○○元、首期利息為○○元、每期利息○○元、總費用年百分率為○○%，生效的分期金額將依實際繳款入帳後的金額計算，請您於繳款截止日前繳足最低應繳金額，才不會導致分期失效。若要提前結清，建議您等繳足一半期數或12期後再提出申請，這樣才不會被收取提前清償違約金$500元。\n\n(若分期註記目前為N)\n▲提醒您！因首次辦理消費分期需同意分期相關約定才能生效，請問方便協助您在派大星銀行官網或以EMAIL、傳真或郵寄分期約定書的方式給您辦理呢？\n\n請留意客戶額度是否會超過110%，若額度已滿請提醒客戶不要再做其他新增消費，避免分期失效。",
+      "responseZh": "○○先生/小姐您好，您這期帳單○○多元的消費符合我們的優惠分期專案，每萬元每個月只收○○元的利息，比循環利率還要低，要不要我幫您試算一下?\n(試算後客戶同意)\n▲您申請的是○月○日結帳的帳單，分○○期，最高可申請金額為$○○元、首期利息為○○元、每期利息○○元、總費用年百分率為○○%，生效的分期金額將依實際繳款入帳後的金額計算，請您於繳款截止日前繳足最低應繳金額，才不會導致分期失效。若要提前結清，建議您等繳足一半期數或12期後再提出申請，這樣才不會被收取提前清償違約金$500元。\n\n(若分期註記目前為N)\n▲提醒您！因首次辦理消費分期需同意分期相關約定才能生效，請問方便協助您在派大星銀行官網或以EMAIL、傳真或郵寄分期約定書的方式給您辦理呢？\n\n請留意客戶額度是否會超過110%，若額度已滿請提醒客戶不要再做其他新增消費，避免分期失效。"
+    },
+    {
+      "topic": "Permanent Credit Limit Increase",
+      "keywords": [
+        "申請永久額度調高"
+      ],
+      "response": "方式一：專人申請\n○○先生/小姐：如果您需要將永久額度提升，請您提供近三個月的財力證明，例如：薪資單、扣繳憑單等，我們協助您向相關單位申請永久額度調整，大約2-3個工作天以簡訊回覆您調整的結果。\n\n方式二：自助化\n○○先生/小姐：您也可以透過派大星銀行官網，將薪資單、薪轉存摺明細及封面或扣繳憑單上傳後進行申請，大約３-５個工作天以簡訊回覆您調整的結果。\n\n（若客戶透過官網永調，提供的收入證明需同現職，其他財力證明如權狀、保費、定存等不算）",
+      "responseZh": "方式一：專人申請\n○○先生/小姐：如果您需要將永久額度提升，請您提供近三個月的財力證明，例如：薪資單、扣繳憑單等，我們協助您向相關單位申請永久額度調整，大約2-3個工作天以簡訊回覆您調整的結果。\n\n方式二：自助化\n○○先生/小姐：您也可以透過派大星銀行官網，將薪資單、薪轉存摺明細及封面或扣繳憑單上傳後進行申請，大約３-５個工作天以簡訊回覆您調整的結果。\n\n（若客戶透過官網永調，提供的收入證明需同現職，其他財力證明如權狀、保費、定存等不算）"
+    },
+    {
+      "topic": "Credit Limit Increase Result Below Expectation",
+      "keywords": [
+        "申請永調後額度不符合期望"
+      ],
+      "response": "○○先生/小姐您好：這是依照您的持卡狀況及各家銀行往來的情形進行綜合評估，額度已為您調整到○○萬。\n\n(若客抱怨額度不滿意)\n○○先生/小姐，您可以再檢附其他不同的財力文件，我們再請相關單位重新評估。",
+      "responseZh": "○○先生/小姐您好：這是依照您的持卡狀況及各家銀行往來的情形進行綜合評估，額度已為您調整到○○萬。\n\n(若客抱怨額度不滿意)\n○○先生/小姐，您可以再檢附其他不同的財力文件，我們再請相關單位重新評估。"
+    },
+    {
+      "topic": "Student Card Limit Increase",
+      "keywords": [
+        "學生卡申請調升額度"
+      ],
+      "response": "○○先生/小姐：麻煩您附上畢業證書及近三個月的財力證明，例如：薪資單、扣繳憑單等，我們協助您向相關單位申請取消學生卡註記及額度調整，大約2-3個工作天以簡訊回覆您額度調整的結果。",
+      "responseZh": "○○先生/小姐：麻煩您附上畢業證書及近三個月的財力證明，例如：薪資單、扣繳憑單等，我們協助您向相關單位申請取消學生卡註記及額度調整，大約2-3個工作天以簡訊回覆您額度調整的結果。"
+    },
+    {
+      "topic": "Credit Limit Decrease Request",
+      "keywords": [
+        "申請調降信用卡額度"
+      ],
+      "response": "○○先生/小姐：您想將額度調降，我們可以協助您提出申請，請問您希望調降到多少額度呢? （客戶 : ＯＯ萬）\n\n好的，大約2-3個工作天即可將您的額度調降至○○萬元，日後要調升額度須再檢附財力證明，永久額度調降後只能在額度內使用哦。",
+      "responseZh": "○○先生/小姐：您想將額度調降，我們可以協助您提出申請，請問您希望調降到多少額度呢? （客戶 : ＯＯ萬）\n\n好的，大約2-3個工作天即可將您的額度調降至○○萬元，日後要調升額度須再檢附財力證明，永久額度調降後只能在額度內使用哦。"
+    },
+    {
+      "topic": "Debit Card Lost - Standard",
+      "keywords": [
+        "金融卡掛失(一般卡)"
+      ],
+      "response": "派大星銀行已經在XX年X月X日X點X分，為您完成了金融卡掛失手續。經查詢目前您帳上餘額為XX元。如您要申請補發金融卡，請您在五日之內，攜帶您的雙證件及存款帳戶原留印鑑，至派大星銀行任一分行辦理。提醒您，申請補發新卡將會跟您收取100元的手續費。",
+      "responseZh": "派大星銀行已經在XX年X月X日X點X分，為您完成了金融卡掛失手續。經查詢目前您帳上餘額為XX元。如您要申請補發金融卡，請您在五日之內，攜帶您的雙證件及存款帳戶原留印鑑，至派大星銀行任一分行辦理。提醒您，申請補發新卡將會跟您收取100元的手續費。"
+    },
+    {
+      "topic": "Debit Card Lost - FE Direct",
+      "keywords": [
+        "金融卡掛失(FE DIRECT)"
+      ],
+      "response": "1.派大星銀行已經在XX年X月X日X點X分，為您完成了FE Direct金融卡掛失手續，經查詢，目前您帳上的餘額為XXXX元。\n2.如您要申請補發金融卡，請您至本行官網的i櫃檯項目裡的FE Direct網頁選點「郵寄申請」選項，下載 「金融卡掛失暨補發申請書」，填寫完成後寄回10099台北南海郵局第5-389號信箱，本行將於收到您的補卡申請書後，將卡片寄至您的指定收取地址。\n3.提醒您，申請補發新卡將會跟您收取150元的工本暨郵寄費用，款項將自您的FE Direct帳戶中扣除，如扣款當日因存款不足導致無法扣款，則取消本次申請。",
+      "responseZh": "1.派大星銀行已經在XX年X月X日X點X分，為您完成了FE Direct金融卡掛失手續，經查詢，目前您帳上的餘額為XXXX元。\n2.如您要申請補發金融卡，請您至本行官網的i櫃檯項目裡的FE Direct網頁選點「郵寄申請」選項，下載 「金融卡掛失暨補發申請書」，填寫完成後寄回10099台北南海郵局第5-389號信箱，本行將於收到您的補卡申請書後，將卡片寄至您的指定收取地址。\n3.提醒您，申請補發新卡將會跟您收取150元的工本暨郵寄費用，款項將自您的FE Direct帳戶中扣除，如扣款當日因存款不足導致無法扣款，則取消本次申請。"
+    },
+    {
+      "topic": "Debit Card Lost - Bankee",
+      "keywords": [
+        "金融卡掛失(BANKEE)"
+      ],
+      "response": "派大星銀行已經在XX年X月X日X點X分，為您完成了Bankee金融卡掛失手續。經查詢，目前您帳上的餘額為XXXX元。如您要申請補發金融卡， 請您至本行 Bankee APP申請補發，卡片將以掛號寄送至您的通訊地址；另外，申請補發新卡將會跟您收取150元的工本暨郵寄費用，款項將自您的Bankee帳戶中扣除，如扣款當日存款不足導致無法扣款，則取消該次申請作業。",
+      "responseZh": "派大星銀行已經在XX年X月X日X點X分，為您完成了Bankee金融卡掛失手續。經查詢，目前您帳上的餘額為XXXX元。如您要申請補發金融卡， 請您至本行 Bankee APP申請補發，卡片將以掛號寄送至您的通訊地址；另外，申請補發新卡將會跟您收取150元的工本暨郵寄費用，款項將自您的Bankee帳戶中扣除，如扣款當日存款不足導致無法扣款，則取消該次申請作業。"
+    },
+    {
+      "topic": "Phone Script English - Greeting",
+      "keywords": [
+        "開場問候語"
+      ],
+      "response": "派大星商銀您好，我叫客服人員名字，請問有什麼問題我可以協助的？\nGood morning/Good afternoon/Good evening, This is  Patrick Star Bank. How can I help you?\n\n若是可以幫客戶處理, 請直接幫客戶查詢/處理。若是無法回答客人的問題, 可以告知客戶：\nSir/Madam, could you please wait a moment. I'll transfer your call to someone can help you.\n\n若是臨時找不到人來處理, 可先留下客戶了的電話，請其它CSR回電。\nWould you please leave your phone number?  We'll call you back.",
+      "responseZh": "派大星商銀您好，我叫客服人員名字，請問有什麼問題我可以協助的？\nGood morning/Good afternoon/Good evening, This is  Patrick Star Bank. How can I help you?\n\n若是可以幫客戶處理, 請直接幫客戶查詢/處理。若是無法回答客人的問題, 可以告知客戶：\nSir/Madam, could you please wait a moment. I'll transfer your call to someone can help you.\n\n若是臨時找不到人來處理, 可先留下客戶了的電話，請其它CSR回電。\nWould you please leave your phone number?  We'll call you back."
+    },
+    {
+      "topic": "Phone Script English - Cannot Hear Clearly",
+      "keywords": [
+        "電話聽不清楚"
+      ],
+      "response": "可以請您再說一次嗎？\nI beg your pardon ( pardon me ) ?\n\n可以請您說話聲音大一點嗎？\nCould you speak louder?\n\n可以請您說話慢一點嗎？\nWould you slow down, please?\n\n請問您可以清楚聽到我的聲音嗎？因為目前電話線路非常不清楚。\nCan you hear me very well? The line is kind of noisy right now.",
+      "responseZh": "可以請您再說一次嗎？\nI beg your pardon ( pardon me ) ?\n\n可以請您說話聲音大一點嗎？\nCould you speak louder?\n\n可以請您說話慢一點嗎？\nWould you slow down, please?\n\n請問您可以清楚聽到我的聲音嗎？因為目前電話線路非常不清楚。\nCan you hear me very well? The line is kind of noisy right now."
+    },
+    {
+      "topic": "Phone Script English - Call Transfer",
+      "keywords": [
+        "轉接電話"
+      ],
+      "response": "請稍後，我將為您轉接。\nHold on, please. I Il get you through.\nHold on, please. I' Il put you on the line.\nHold on, please. I' Il transfer for you.",
+      "responseZh": "請稍後，我將為您轉接。\nHold on, please. I Il get you through.\nHold on, please. I' Il put you on the line.\nHold on, please. I' Il transfer for you."
+    },
+    {
+      "topic": "Phone Script English - Returning To Call",
+      "keywords": [
+        "電話接回"
+      ],
+      "response": "謝謝您的耐心等候。\nThanks for your waiting.\nThank you for your patience.",
+      "responseZh": "謝謝您的耐心等候。\nThanks for your waiting.\nThank you for your patience."
+    },
+    {
+      "topic": "Phone Script English - Agent Busy",
+      "keywords": [
+        "專員忙線"
+      ],
+      "response": "很抱歉目前專員忙線中、是否可以請您留下電話，我會請他盡快回電。\nI'm Sorry, our English service line is busy now . Could you please leave your contact number , and we will call you back  soon.\n\n很抱歉目前專員忙線中，請問您需要留言嗎？\nI'm sorry, the line is engaged at this moment Mays-leave the message for a while?",
+      "responseZh": "很抱歉目前專員忙線中、是否可以請您留下電話，我會請他盡快回電。\nI'm Sorry, our English service line is busy now . Could you please leave your contact number , and we will call you back  soon.\n\n很抱歉目前專員忙線中，請問您需要留言嗎？\nI'm sorry, the line is engaged at this moment Mays-leave the message for a while?"
+    },
+    {
+      "topic": "Phone Script English - Wrong Number",
+      "keywords": [
+        "打錯電話"
+      ],
+      "response": "我認為你打錯電話了。\nI think you made a wrong number.\n\n請問您撥什麼號碼呢？\nWhat number did you dial?",
+      "responseZh": "我認為你打錯電話了。\nI think you made a wrong number.\n\n請問您撥什麼號碼呢？\nWhat number did you dial?"
+    },
+    {
+      "topic": "Phone Script English - Closing",
+      "keywords": [
+        "結尾語"
+      ],
+      "response": "請問還有其他需要為您服務的地方嗎？感謝您的來電，祝您有美好的一天。\nIs there anything else I can help you?\n\n感謝您的來電，祝您有美好的一天。\nThanks for your calling. Have a nice day.\n\n請問還有其他需要為您服務的地方嗎？很高興與您對談。\nIs there anything else I can do for you ?That's very nice talked to you.",
+      "responseZh": "請問還有其他需要為您服務的地方嗎？感謝您的來電，祝您有美好的一天。\nIs there anything else I can help you?\n\n感謝您的來電，祝您有美好的一天。\nThanks for your calling. Have a nice day.\n\n請問還有其他需要為您服務的地方嗎？很高興與您對談。\nIs there anything else I can do for you ?That's very nice talked to you."
+    },
+    {
+      "topic": "Phone Script English - Identity Check Explanation",
+      "keywords": [
+        "說明核身用意"
+      ],
+      "response": "客戶名先生/小姐您好，希望您不介意我們與您核對資料；因為依據規定，我們未經客戶同意無法提供個人資訊。\nMr./ Miss 客戶名，Ihope you don't mind we need to check some information with you (I hope you don't mind answering these questions for your identity ). According to the regulations, we cannot give you the information without client's commitment.",
+      "responseZh": "客戶名先生/小姐您好，希望您不介意我們與您核對資料；因為依據規定，我們未經客戶同意無法提供個人資訊。\nMr./ Miss 客戶名，Ihope you don't mind we need to check some information with you (I hope you don't mind answering these questions for your identity ). According to the regulations, we cannot give you the information without client's commitment."
+    },
+    {
+      "topic": "Phone Script English - Identity Verification",
+      "keywords": [
+        "核對身分"
+      ],
+      "response": "請問您的身分證字號？\nMay I have your ID number, please? (What is your ID number?)\n\n請問您的全名？\nMay I have your full name, please? (What is your full legal name?)\n\n* first name (given name) & / middle name / last name (family name) 姓\n\n請問您的生日？\nMay I have your birthday, please? (What is your date of birth?)\n\n核+A23:A31\n\n請問您的戶籍地址？\nMay I have your permanent home address please? (What is your permanent home address?)\n\n請問您是否申請過網路銀行/電話語音服務？\nHave you ever applied Internet Banking/Telephone Backing Service? (Do you have any previous experience with Internet Banking/Telephone Backing Service?)\n\n請問您的（緊急）連絡人大名？\nMay I have the name of your (emergency) contact person please? (Who should we contact in case of emergency, and what is his/her name?)\n\n請問您的國籍？\nMay I have your nationality please? （What nationality are you？）",
+      "responseZh": "請問您的身分證字號？\nMay I have your ID number, please? (What is your ID number?)\n\n請問您的全名？\nMay I have your full name, please? (What is your full legal name?)\n\n* first name (given name) & / middle name / last name (family name) 姓\n\n請問您的生日？\nMay I have your birthday, please? (What is your date of birth?)\n\n核+A23:A31\n\n請問您的戶籍地址？\nMay I have your permanent home address please? (What is your permanent home address?)\n\n請問您是否申請過網路銀行/電話語音服務？\nHave you ever applied Internet Banking/Telephone Backing Service? (Do you have any previous experience with Internet Banking/Telephone Backing Service?)\n\n請問您的（緊急）連絡人大名？\nMay I have the name of your (emergency) contact person please? (Who should we contact in case of emergency, and what is his/her name?)\n\n請問您的國籍？\nMay I have your nationality please? （What nationality are you？）"
+    },
+    {
+      "topic": "Phone Script English - Payment Method",
+      "keywords": [
+        "信用卡繳款方式"
+      ],
+      "response": "我要如何繳款?\nHow can I pay the bill?\n\nXX先生(小姐)您可利用提款卡轉帳,請先輸入派大星銀行代碼805,然後輸入您的卡號,再輸入金額,並請保留收據到繳款入帳。或是您可攜帶繳款單在指定銀行櫃台繳款.\nMr.xx (Ms.xx), you could pay by ATM. Please choose ATM transfer item, then press our bank code 805 and input your card number.and the amount. Please make sure the transaction is done and keep the receipt until we receive your payment  Or, you could pay with the bill at the counter of the appointed banks.",
+      "responseZh": "我要如何繳款?\nHow can I pay the bill?\n\nXX先生(小姐)您可利用提款卡轉帳,請先輸入派大星銀行代碼805,然後輸入您的卡號,再輸入金額,並請保留收據到繳款入帳。或是您可攜帶繳款單在指定銀行櫃台繳款.\nMr.xx (Ms.xx), you could pay by ATM. Please choose ATM transfer item, then press our bank code 805 and input your card number.and the amount. Please make sure the transaction is done and keep the receipt until we receive your payment  Or, you could pay with the bill at the counter of the appointed banks."
+    },
+    {
+      "topic": "Phone Script English - Card Activation",
+      "keywords": [
+        "信用卡開卡"
+      ],
+      "response": "我昨天收到信用卡, 可不可以幫我開卡？\nI received my new card yesterday. Could you activate it for me?\n\n生先(小姐) 麻煩您提供卡號.\nSir (Madam), may I have your card number, please?\n\n請問您的大名是?\nMay I have your name, please?\n\n請問您的出生是?\nMay I have your birthday, please?\n\n請問您家裡(或公司)電話是?\nMay I have your home telephone number (or office phone number), please?\n\n請問您卡片有效期限是?\nWhen is the expiry date of your card?\n\n請問您的帳單地址是？\nMay I have your billing address?\n\n請問您有無附卡(附卡人大名是)?\nDo you have any supplementary cards (What's the supplementary cardholder's name) ?\n\nXX先生(小姐)您的卡片已完成開卡.\nMr.xx (Ms.xx), your card has been acknowledged. You can use it now..\n\n謝謝您的來電，祝您有個愉快的一天.\nThank you for calling us. Have a good day. Bye~",
+      "responseZh": "我昨天收到信用卡, 可不可以幫我開卡？\nI received my new card yesterday. Could you activate it for me?\n\n生先(小姐) 麻煩您提供卡號.\nSir (Madam), may I have your card number, please?\n\n請問您的大名是?\nMay I have your name, please?\n\n請問您的出生是?\nMay I have your birthday, please?\n\n請問您家裡(或公司)電話是?\nMay I have your home telephone number (or office phone number), please?\n\n請問您卡片有效期限是?\nWhen is the expiry date of your card?\n\n請問您的帳單地址是？\nMay I have your billing address?\n\n請問您有無附卡(附卡人大名是)?\nDo you have any supplementary cards (What's the supplementary cardholder's name) ?\n\nXX先生(小姐)您的卡片已完成開卡.\nMr.xx (Ms.xx), your card has been acknowledged. You can use it now..\n\n謝謝您的來電，祝您有個愉快的一天.\nThank you for calling us. Have a good day. Bye~"
+    },
+    {
+      "topic": "Phone Script English - Bill Not Received",
+      "keywords": [
+        "信用卡帳單沒收到"
+      ],
+      "response": "我沒有收到帳單,請問我需要繳多少錢?\nI haven’t  received my bill yet, and could you tell me how much should I pay?\n\n先生(小姐) 麻煩您提供卡號.\nSir (Madam), may I have your card number, please?\n\n請問您大名是?\nMay I have your name, please?\n\n請問您的生日是?\nMr.xx(Ms.xx), may I have your birthday, please?\n\n請問您帳單地址是?\nMay I reconfirm your billing address?\n\n您的地址正確.\nYour billing address is correct.\n\n先生(小姐)您這一期的帳單總應繳金額是18,432元,最低應繳金額是800元,繳款期限是4月24日.\nMr.xx (Ms.xx), your total amount is eighteen thousand four hundred and thirty-two NT dollars, the minimum payment is eight hundred NT dollars and the due date is April, twenty-fourth.\n\n先生(小姐)需不需要幫您補寄帳單?\nShould I re-send the bill to you?\n\n好的,我將會幫您補寄帳單. 您大約四個工作天可收到.\nOK.  I will re-send the bill to you.  You will receive it about four working days.",
+      "responseZh": "我沒有收到帳單,請問我需要繳多少錢?\nI haven’t  received my bill yet, and could you tell me how much should I pay?\n\n先生(小姐) 麻煩您提供卡號.\nSir (Madam), may I have your card number, please?\n\n請問您大名是?\nMay I have your name, please?\n\n請問您的生日是?\nMr.xx(Ms.xx), may I have your birthday, please?\n\n請問您帳單地址是?\nMay I reconfirm your billing address?\n\n您的地址正確.\nYour billing address is correct.\n\n先生(小姐)您這一期的帳單總應繳金額是18,432元,最低應繳金額是800元,繳款期限是4月24日.\nMr.xx (Ms.xx), your total amount is eighteen thousand four hundred and thirty-two NT dollars, the minimum payment is eight hundred NT dollars and the due date is April, twenty-fourth.\n\n先生(小姐)需不需要幫您補寄帳單?\nShould I re-send the bill to you?\n\n好的,我將會幫您補寄帳單. 您大約四個工作天可收到.\nOK.  I will re-send the bill to you.  You will receive it about four working days."
+    },
+    {
+      "topic": "Phone Script English - Balance And Available Credit",
+      "keywords": [
+        "信用卡消費金額和可用額度"
+      ],
+      "response": "請問您的生日?\nMr.xx(Ms.xx), may I have your birthday, please?\n\n請問您家裡(或公司)電話?\nMay I have your home telephone number(or office phone number)?\n\n請問您的帳單地址是？\nMay I have your billing address?\n\n請問您有無附卡(附卡人大名是)?\nDo you have any supplementary cards (What's the supplementary cardholder's name) ?\n\nXX先生(小姐)您目前的消費總額是50,420元,可用餘額是49,580元.\nMr.xx (Ms.xx), your outstanding balance is fifty thousand four hundred and twenty NT dollars, and available credit limit is forty-nine thousand five hundred and eighty NT dollars.\n\n請問我目前總共消費金額是多少和可用餘額是多少?\nCould you tell me my outstanding balance and available credit limit?\n\n生先(小姐) 麻煩您提供卡號.\nSir (Madam), may I have your card number, please ?\n\n請問您大名是?\nMay I have your name, please?",
+      "responseZh": "請問您的生日?\nMr.xx(Ms.xx), may I have your birthday, please?\n\n請問您家裡(或公司)電話?\nMay I have your home telephone number(or office phone number)?\n\n請問您的帳單地址是？\nMay I have your billing address?\n\n請問您有無附卡(附卡人大名是)?\nDo you have any supplementary cards (What's the supplementary cardholder's name) ?\n\nXX先生(小姐)您目前的消費總額是50,420元,可用餘額是49,580元.\nMr.xx (Ms.xx), your outstanding balance is fifty thousand four hundred and twenty NT dollars, and available credit limit is forty-nine thousand five hundred and eighty NT dollars.\n\n請問我目前總共消費金額是多少和可用餘額是多少?\nCould you tell me my outstanding balance and available credit limit?\n\n生先(小姐) 麻煩您提供卡號.\nSir (Madam), may I have your card number, please ?\n\n請問您大名是?\nMay I have your name, please?"
+    },
+    {
+      "topic": "Phone Script English - Payment Posting Status",
+      "keywords": [
+        "繳款是否入帳"
+      ],
+      "response": "我的繳款入帳了嗎?\nI would like to check my payment.\n\n先生(小姐)請問您的卡號是?\nSir (Madam), may I have your card number, please?\n\n請問您的繳款金額和日期是?\nCould you please tell me how much did you pay and when did you pay?\n\nXX先生(小姐),我們已收到您的繳款了.\nMr.xx (Ms.xx), we have received your payment already.",
+      "responseZh": "我的繳款入帳了嗎?\nI would like to check my payment.\n\n先生(小姐)請問您的卡號是?\nSir (Madam), may I have your card number, please?\n\n請問您的繳款金額和日期是?\nCould you please tell me how much did you pay and when did you pay?\n\nXX先生(小姐),我們已收到您的繳款了.\nMr.xx (Ms.xx), we have received your payment already."
+    },
+    {
+      "topic": "Phone Script English - Change Billing Address",
+      "keywords": [
+        "更改帳單地址"
+      ],
+      "response": "我變更帳單地址\nI would like to change the billing address, please.\n\n生先(小姐) 請問您的卡號?\nSir (Madam), may I have your card number, please?\n\n請問您大名是?\nMay I have your name, please?\n\nXX先生(小姐),我先跟您核對個人資料\nMr.xx(Ms.xx), I would like to reconfirm your personal information.\n\n請問您的生日?\nMay I have your birthday, please?\n\n請問您家裡(或公司)電話?\nMay I have your home telephone number(or office phone number)?\n\n請問您付款方式是全額繳清或使用循環信用?\nDo you pay your bill in full or use the revolving rate?\n\n請問您有無附卡?(附卡人大名是)\nDo you have any supplementary cards? (What's the supplementary  cardholder's name?)\n\n請問您原來的地址是?\nWhat is your original address?\n\n請問您的新地址是?\nWhat is your new address?\n\n我現在跟您重覆一下新的地址?  xx市xx路xx段xx巷xx弄xx號.\nI repeat your new billing address.  It's “No. xx, Alley xx, Lane xx, Sec\n\nxx, xx Rd, xx City.”\n\n請問您的電話有無更改?\nDid you change your phone number?\n\nXX先生(小姐)下期帳單我們將為您寄至新的地址.\nMr.xx (Ms.xx), we will send your new bill to your new address from now on.",
+      "responseZh": "我變更帳單地址\nI would like to change the billing address, please.\n\n生先(小姐) 請問您的卡號?\nSir (Madam), may I have your card number, please?\n\n請問您大名是?\nMay I have your name, please?\n\nXX先生(小姐),我先跟您核對個人資料\nMr.xx(Ms.xx), I would like to reconfirm your personal information.\n\n請問您的生日?\nMay I have your birthday, please?\n\n請問您家裡(或公司)電話?\nMay I have your home telephone number(or office phone number)?\n\n請問您付款方式是全額繳清或使用循環信用?\nDo you pay your bill in full or use the revolving rate?\n\n請問您有無附卡?(附卡人大名是)\nDo you have any supplementary cards? (What's the supplementary  cardholder's name?)\n\n請問您原來的地址是?\nWhat is your original address?\n\n請問您的新地址是?\nWhat is your new address?\n\n我現在跟您重覆一下新的地址?  xx市xx路xx段xx巷xx弄xx號.\nI repeat your new billing address.  It's “No. xx, Alley xx, Lane xx, Sec\n\nxx, xx Rd, xx City.”\n\n請問您的電話有無更改?\nDid you change your phone number?\n\nXX先生(小姐)下期帳單我們將為您寄至新的地址.\nMr.xx (Ms.xx), we will send your new bill to your new address from now on."
+    },
+    {
+      "topic": "Phone Script English - Cancel Credit Card",
+      "keywords": [
+        "取消信用卡"
+      ],
+      "response": "我要取消信用卡\nI would like to cancel my credit card.\n\n生先(小姐) 麻煩您提供卡號\nSir (Madam), may I have your card number, please?\n\n請問您大名是?\nMay I have your name, please?\n\n請問您的生日?\nMay I have your birthday, please?\n\n請問您取消卡片的原因?\nCould you please tell me the reason why you want to cancel your credit card?\n\n請問您卡片的到期日是?\nWhat is the expiry date of your card?\n\n請問您有無附卡? 請問附卡人大名？\nDo you have any supplementary cards? (What's the supplementary cardholder's name) ?\n\n請問您住家,公司電話是?\nMay I have your home phone number and office phone number?\n\n請問您付款方式是全額繳清或使用循環信用?\nDo you pay your bill in full or use revolving rate?\n\n請問您帳單地址是?\nMay I have your billing address?\n\nXX先生(小姐),卡片已為您取消,麻煩您自行將卡片剪斷作廢,卡片的權益也一併終止.\nMr.xx (Ms.xx) your card has been cancelled, please make sure to cut your card to pieces. All the rights of the card are no longer valid.\n\n還有其它可以為您服務的地方嘛? 如果有需要我們服務的地方, 歡迎您再來電。謝謝您, 祝您有個愉快的一天！\nAnything else can I help you？If you need any bank service in the future, please feel free to contact us. Thank you. Have a good day！ Bye~",
+      "responseZh": "我要取消信用卡\nI would like to cancel my credit card.\n\n生先(小姐) 麻煩您提供卡號\nSir (Madam), may I have your card number, please?\n\n請問您大名是?\nMay I have your name, please?\n\n請問您的生日?\nMay I have your birthday, please?\n\n請問您取消卡片的原因?\nCould you please tell me the reason why you want to cancel your credit card?\n\n請問您卡片的到期日是?\nWhat is the expiry date of your card?\n\n請問您有無附卡? 請問附卡人大名？\nDo you have any supplementary cards? (What's the supplementary cardholder's name) ?\n\n請問您住家,公司電話是?\nMay I have your home phone number and office phone number?\n\n請問您付款方式是全額繳清或使用循環信用?\nDo you pay your bill in full or use revolving rate?\n\n請問您帳單地址是?\nMay I have your billing address?\n\nXX先生(小姐),卡片已為您取消,麻煩您自行將卡片剪斷作廢,卡片的權益也一併終止.\nMr.xx (Ms.xx) your card has been cancelled, please make sure to cut your card to pieces. All the rights of the card are no longer valid.\n\n還有其它可以為您服務的地方嘛? 如果有需要我們服務的地方, 歡迎您再來電。謝謝您, 祝您有個愉快的一天！\nAnything else can I help you？If you need any bank service in the future, please feel free to contact us. Thank you. Have a good day！ Bye~"
+    },
+    {
+      "topic": "Phone Script English - Report Lost Card",
+      "keywords": [
+        "掛失"
+      ],
+      "response": "我的信用卡遺失了,我要掛失.\nMy card is lost.  I would like to report lost..\n\n請問您的生日是？\nSir(Madam), may I have your birthday, please？\n\n請問您大名是?\nMay I have you name, please?\n\n請問您的姓氏如何拼法呢?\nHow to spell your last (or family) name?\n\n請問您家裡(或公司)電話是?\nMay I have your home phone number and office phone number?\n\n請問您是否有附卡?\nDo you have any supplementary (secondary) cards?\n\nXX先生(小姐)請問您卡片在那裡遺失?最後一筆刷卡交易金額和地點是?\nMr.xx (Ms.xx) where did you lose your card? Do you remember the place and amount of the last transaction?\n\nXX先生(小姐)卡片已為您掛失，下期帳單將收取掛失費用200元,我們將換發一張新卡給您,請問您帳單地址是?XX先生(小姐)您大約一星期左右即可收到新卡.\nMr.xx (Ms.xx), your card has been reported lost and there will be two hundred NT  dollars losting charge in your next bill. We will send a new credit card to you. May I reconfirm your billing address? Mr.xx (Ms.xx) you're going to receive a new card within a week.\n\n我的卡片為什麼交易被拒絕?\nWhy my transaction was declined?\n\n生先(小姐) 請問您的卡號?\nSir (Madam), may I have your card number, please?\n\n請問您的生日是?\nMay I have your birthday, please?\n\n請問您家裡(或公司)電話是?\nMay I have your home phone number (or office phone number), please?\n\n請問您刷卡的金額是多少?\nCould you tell me the transaction amount?\n\nXX先生(小姐)因為您目前帳款遲繳,所以卡片目前暫時無法使用,你目前的最低應繳金額為5,000元,繳款入帳後卡片即可恢復使用\nMr.xx(Msxx), since your last bill is not paid yet, the card is temporarily suspended, once we got your minimum payment five thousand NT dollars and the card will work.\n\nXX先生(小姐),因為您目前額度不夠所以卡片無法使用.\nMr.xx(Ms.xx), your transaction was declined because of overlimit.\n\nXX先生(小姐),因為此筆交易金額比較大,我們需要與您線上核對資料,確認無誤後, 即可核准此筆交易,很抱歉造成您的不便了.\nMr.xx(Ms.xx), since this transaction amount is quite high, we would like to reconfirm your personal information on the phone.  After reconfirming, the transaction will be approved right away.  Sorry to cause your inconvenience.\n\n您必須請商家撥電話給他的收單銀行(幫他裝設刷卡機的銀行)，取得授權碼，才能完成此筆交易\nYou should inform the merchant to call bank to approve this transaction.",
+      "responseZh": "我的信用卡遺失了,我要掛失.\nMy card is lost.  I would like to report lost..\n\n請問您的生日是？\nSir(Madam), may I have your birthday, please？\n\n請問您大名是?\nMay I have you name, please?\n\n請問您的姓氏如何拼法呢?\nHow to spell your last (or family) name?\n\n請問您家裡(或公司)電話是?\nMay I have your home phone number and office phone number?\n\n請問您是否有附卡?\nDo you have any supplementary (secondary) cards?\n\nXX先生(小姐)請問您卡片在那裡遺失?最後一筆刷卡交易金額和地點是?\nMr.xx (Ms.xx) where did you lose your card? Do you remember the place and amount of the last transaction?\n\nXX先生(小姐)卡片已為您掛失，下期帳單將收取掛失費用200元,我們將換發一張新卡給您,請問您帳單地址是?XX先生(小姐)您大約一星期左右即可收到新卡.\nMr.xx (Ms.xx), your card has been reported lost and there will be two hundred NT  dollars losting charge in your next bill. We will send a new credit card to you. May I reconfirm your billing address? Mr.xx (Ms.xx) you're going to receive a new card within a week.\n\n我的卡片為什麼交易被拒絕?\nWhy my transaction was declined?\n\n生先(小姐) 請問您的卡號?\nSir (Madam), may I have your card number, please?\n\n請問您的生日是?\nMay I have your birthday, please?\n\n請問您家裡(或公司)電話是?\nMay I have your home phone number (or office phone number), please?\n\n請問您刷卡的金額是多少?\nCould you tell me the transaction amount?\n\nXX先生(小姐)因為您目前帳款遲繳,所以卡片目前暫時無法使用,你目前的最低應繳金額為5,000元,繳款入帳後卡片即可恢復使用\nMr.xx(Msxx), since your last bill is not paid yet, the card is temporarily suspended, once we got your minimum payment five thousand NT dollars and the card will work.\n\nXX先生(小姐),因為您目前額度不夠所以卡片無法使用.\nMr.xx(Ms.xx), your transaction was declined because of overlimit.\n\nXX先生(小姐),因為此筆交易金額比較大,我們需要與您線上核對資料,確認無誤後, 即可核准此筆交易,很抱歉造成您的不便了.\nMr.xx(Ms.xx), since this transaction amount is quite high, we would like to reconfirm your personal information on the phone.  After reconfirming, the transaction will be approved right away.  Sorry to cause your inconvenience.\n\n您必須請商家撥電話給他的收單銀行(幫他裝設刷卡機的銀行)，取得授權碼，才能完成此筆交易\nYou should inform the merchant to call bank to approve this transaction."
+    },
+    {
+      "topic": "Phone Script English - Credit Limit Increase Request",
+      "keywords": [
+        "申請調高額度"
+      ],
+      "response": "我想要申請永久額度調高？\nCould you increase the permanent credit limit for me?\n\n生先（小姐）請問您的卡號？\nSir (madam), may I have your card number, please?\n\n請問您大名是？\nMay I have your name?\n\n請問您的生日？\nMay I have your birthday?\n\n請問您家裡（或公司）電話？\nMay I have your home phone number (or office phone number)?\n\n請問您原來的額度是？\nMay I have your original credit limit?\n\nXX先生（小姐）您希望額度多少呢？我們授信部們需要2個工作天來審核您的申請，若是結果出來，我將會回電給您，可否先留下您的連絡電話呢？\nMr.xx (Ms.xx), how would you like your credit limit? Our credit department will check your application within two working. days. Would you please leave your contact number? Once the result comes out, I will call you back.",
+      "responseZh": "我想要申請永久額度調高？\nCould you increase the permanent credit limit for me?\n\n生先（小姐）請問您的卡號？\nSir (madam), may I have your card number, please?\n\n請問您大名是？\nMay I have your name?\n\n請問您的生日？\nMay I have your birthday?\n\n請問您家裡（或公司）電話？\nMay I have your home phone number (or office phone number)?\n\n請問您原來的額度是？\nMay I have your original credit limit?\n\nXX先生（小姐）您希望額度多少呢？我們授信部們需要2個工作天來審核您的申請，若是結果出來，我將會回電給您，可否先留下您的連絡電話呢？\nMr.xx (Ms.xx), how would you like your credit limit? Our credit department will check your application within two working. days. Would you please leave your contact number? Once the result comes out, I will call you back."
+    },
+    {
+      "topic": "Application Status - Case Received",
+      "keywords": [
+        "申辦信用卡進度 (FE系統已進件)"
+      ],
+      "response": "○○先生/小姐，目前您的案件正在審核中，申請作業時間為7個工作天，官網也可以同步查詢審核進度喔!",
+      "responseZh": "○○先生/小姐，目前您的案件正在審核中，申請作業時間為7個工作天，官網也可以同步查詢審核進度喔!"
+    },
+    {
+      "topic": "Application Status - Case Not Received",
+      "keywords": [
+        "申辦信用卡進度 (FE系統沒有進件)"
+      ],
+      "response": "○○先生/小姐，經查詢尚未收到您的信用卡申請資料，請問您是什麼時候且用什麼方式申請的呢?\n\n▲情境一(透過DS申請)：\n請問您是在哪個百貨公司或通路填寫資料呢?有印象當時服務業務的姓名嗎?\n(若客戶忘記業務姓名)\n請問是業務是男生還是女生? 身材特徵? 我們整理相關訊息後會通知業務回電給您，請問你的連絡電話是?\n(若客戶有提供業務姓名)\n我們將再協助反應給業務人員，了解狀況後請業務回電給您，請問你的連絡電話是?\n\n▲情境二(自行寄回申請書)：\n請問您是透過掛號還是平信寄回呢?\n(若為平信)\n郵局寄送加上相關單位建檔作業時間需要一週，建議您可以下週再確認，或是透過派大星銀行官網查詢申請進度哦。\n(若是掛號)\n請問您手邊是否有掛號編號，我們會再反應經辦查詢寄送進度，確認狀況後回電給您，請問你的連絡電話是?\n\n▲情境三(網路申請)：\n網路申請信用卡送出後約15分鐘才會有進件資料，您可隨時透過派大星銀行官網查詢申請進度哦。",
+      "responseZh": "○○先生/小姐，經查詢尚未收到您的信用卡申請資料，請問您是什麼時候且用什麼方式申請的呢?\n\n▲情境一(透過DS申請)：\n請問您是在哪個百貨公司或通路填寫資料呢?有印象當時服務業務的姓名嗎?\n(若客戶忘記業務姓名)\n請問是業務是男生還是女生? 身材特徵? 我們整理相關訊息後會通知業務回電給您，請問你的連絡電話是?\n(若客戶有提供業務姓名)\n我們將再協助反應給業務人員，了解狀況後請業務回電給您，請問你的連絡電話是?\n\n▲情境二(自行寄回申請書)：\n請問您是透過掛號還是平信寄回呢?\n(若為平信)\n郵局寄送加上相關單位建檔作業時間需要一週，建議您可以下週再確認，或是透過派大星銀行官網查詢申請進度哦。\n(若是掛號)\n請問您手邊是否有掛號編號，我們會再反應經辦查詢寄送進度，確認狀況後回電給您，請問你的連絡電話是?\n\n▲情境三(網路申請)：\n網路申請信用卡送出後約15分鐘才會有進件資料，您可隨時透過派大星銀行官網查詢申請進度哦。"
+    },
+    {
+      "topic": "Urgent Card Need - Application Status",
+      "keywords": [
+        "急需要使用信用卡，目前進度如何?"
+      ],
+      "response": "○○先生/小姐，因目前卡片正在審核中，我們會先通知相關單位急件處理，請問您大約何時需要用卡/要出國須幾號前收到卡片?",
+      "responseZh": "○○先生/小姐，因目前卡片正在審核中，我們會先通知相關單位急件處理，請問您大約何時需要用卡/要出國須幾號前收到卡片?"
+    },
+    {
+      "topic": "Application Supplementary Documents",
+      "keywords": [
+        "信用卡補件 (補資料)"
+      ],
+      "response": "○○先生/小姐，辦卡補件的資料可透過傳真、mail或郵寄，請問您想使用那一種方式呢?我提供給您資訊。\n▲情境一(傳真)：\n補件資料可請您傳真至02-82571800 註明分機OOOOO+X小姐/先生收，同時也會將傳真資訊發簡訊到您的手機，我們收到文件後會轉交審核單位儘快處理。\n\n▲情境二(Email)：\n補件資料可請您MAIL至客服信箱:csr-card@feib.com.tw註明分機OOOOO+X小姐/先生收，同時也會將信箱帳號資訊發簡訊到您的手機，我們收到文件後會轉交審核單位儘快處理。\n\n▲情境三(郵寄)：\n若不方便傳真或mail可將文件掛號郵寄至客服中心，地址為220板橋莒光郵局24號信箱，我們收到文件後會轉交審核單位儘快處理。",
+      "responseZh": "○○先生/小姐，辦卡補件的資料可透過傳真、mail或郵寄，請問您想使用那一種方式呢?我提供給您資訊。\n▲情境一(傳真)：\n補件資料可請您傳真至02-82571800 註明分機OOOOO+X小姐/先生收，同時也會將傳真資訊發簡訊到您的手機，我們收到文件後會轉交審核單位儘快處理。\n\n▲情境二(Email)：\n補件資料可請您MAIL至客服信箱:csr-card@feib.com.tw註明分機OOOOO+X小姐/先生收，同時也會將信箱帳號資訊發簡訊到您的手機，我們收到文件後會轉交審核單位儘快處理。\n\n▲情境三(郵寄)：\n若不方便傳真或mail可將文件掛號郵寄至客服中心，地址為220板橋莒光郵局24號信箱，我們收到文件後會轉交審核單位儘快處理。"
+    },
+    {
+      "topic": "Application Rejected - Reason Inquiry",
+      "keywords": [
+        "收到未核准通知，為什麼沒有通過？"
+      ],
+      "response": "▲步驟一:\n○○先生/小姐，因信用卡審核採綜合評分，會參考您提供的資料，例如財力、年收入、工作資料、與他行往來記錄，或他行信用卡使用狀況…等等，因評分未達發卡標準，很抱歉目前無法核發卡片。\n\n▲步驟二:\n如步驟一說明完，客戶仍抱怨不接受的話，可建議客戶的話術為:\n(如拒絕原因為財力問題)\n○○先生/小姐，請問您是否方便提供其他財力資料，我們為您申請再次審核? 但最後審核結果仍需以審核單位回覆的為主。\n\n(如為信用記錄不佳問題)\n○○先生/小姐，因信用卡綜合評分包含非常多項目，客服中心這邊無法確認實際是哪個項目拉低了您的評分，請您可確認看看其他銀行的往來紀錄或持卡狀況，若都排除了他行往來的問題，我們可再為您申請再次審核，但最後審核結果仍需以審核單位回覆的為主。",
+      "responseZh": "▲步驟一:\n○○先生/小姐，因信用卡審核採綜合評分，會參考您提供的資料，例如財力、年收入、工作資料、與他行往來記錄，或他行信用卡使用狀況…等等，因評分未達發卡標準，很抱歉目前無法核發卡片。\n\n▲步驟二:\n如步驟一說明完，客戶仍抱怨不接受的話，可建議客戶的話術為:\n(如拒絕原因為財力問題)\n○○先生/小姐，請問您是否方便提供其他財力資料，我們為您申請再次審核? 但最後審核結果仍需以審核單位回覆的為主。\n\n(如為信用記錄不佳問題)\n○○先生/小姐，因信用卡綜合評分包含非常多項目，客服中心這邊無法確認實際是哪個項目拉低了您的評分，請您可確認看看其他銀行的往來紀錄或持卡狀況，若都排除了他行往來的問題，我們可再為您申請再次審核，但最後審核結果仍需以審核單位回覆的為主。"
     }
   ],
   "APR_KEYWORDS": [
@@ -1474,6 +1890,58 @@
     "EasyCard & Tolls": "悠遊卡與通行費",
     "Parking & Insurance": "停車與保險",
     "Spending Limit": "消費額度",
-    "Charity Donations": "愛心捐款"
+    "Charity Donations": "愛心捐款",
+    "Lost Card - Standard (Reissue)": "信用卡掛失(一般卡_補卡)",
+    "Lost Card - Standard (No Reissue)": "信用卡掛失(一般卡_不補卡)",
+    "Lost Card - EasyCard Card (Reissue, Before Noon)": "信用卡掛失(悠遊聯名卡_補卡、中午12:00前)",
+    "Lost Card - EasyCard Card (Reissue, After Noon)": "信用卡掛失(悠遊聯名卡_補卡、中午12:00後)",
+    "Lost Card - EasyCard Card (No Reissue, Before Noon)": "信用卡掛失(悠遊聯名卡_不補卡、中午12:00前)",
+    "Lost Card - EasyCard Card (No Reissue, After Noon)": "信用卡掛失(悠遊聯名卡_不補卡、中午12:00後)",
+    "Damaged Card Reissue - Standard": "信用卡毀損補發(一般卡)",
+    "Damaged Card Reissue - EasyCard Card": "信用卡毀損補發(悠遊聯名卡)",
+    "Card Cancellation - Standard": "信用卡停卡(一般卡)",
+    "Card Cancellation - EasyCard Card": "信用卡停卡(悠遊聯名卡)",
+    "eTag Auto Reload Application - Same Owner": "信用卡eTag自動儲值申請(持卡人與車主同一人)",
+    "eTag Auto Reload Application - Different Owner": "信用卡eTag自動儲值申請(持卡人與車主不同人)",
+    "Smart Parking Application - Same Owner": "信用卡智慧停車服務申請(持卡人與車主同一人)",
+    "Smart Parking Application - Different Owner": "信用卡智慧停車服務申請(持卡人與車主不同人)",
+    "eTag Auto Reload Plus Smart Parking Application - Same Owner": "信用卡eTag自動儲值+智慧停車服務申請(持卡人與車主同一人)",
+    "eTag Auto Reload Plus Smart Parking Application - Different Owner": "信用卡eTag自動儲值+智慧停車服務申請(持卡人與車主不同人)",
+    "Terminate eTag Auto Reload Service": "信用卡終止eTag自動儲值服務",
+    "Terminate Smart Parking Service": "信用卡終止智慧停車服務",
+    "Terminate eTag Auto Reload Plus Smart Parking Service": "信用卡終止eTag自動儲值+eTag智慧停車服務",
+    "Installment Plan - Single Transaction": "信用卡銷售_單筆消費分期",
+    "Installment Plan - Total Spending": "信用卡銷售_總額消費分期",
+    "Installment Plan - Statement Billing": "信用卡銷售_信用卡帳單分期",
+    "Permanent Credit Limit Increase": "申請永久額度調高",
+    "Credit Limit Increase Result Below Expectation": "申請永調後額度不符合期望",
+    "Student Card Limit Increase": "學生卡申請調升額度",
+    "Credit Limit Decrease Request": "申請調降信用卡額度",
+    "Debit Card Lost - Standard": "金融卡掛失(一般卡)",
+    "Debit Card Lost - FE Direct": "金融卡掛失(FE DIRECT)",
+    "Debit Card Lost - Bankee": "金融卡掛失(BANKEE)",
+    "Phone Script English - Greeting": "開場問候語_英文話術",
+    "Phone Script English - Cannot Hear Clearly": "電話聽不清楚_英文話術",
+    "Phone Script English - Call Transfer": "轉接電話_英文話術",
+    "Phone Script English - Returning To Call": "電話接回_英文話術",
+    "Phone Script English - Agent Busy": "專員忙線_英文話術",
+    "Phone Script English - Wrong Number": "打錯電話_英文話術",
+    "Phone Script English - Closing": "結尾語_英文話術",
+    "Phone Script English - Identity Check Explanation": "說明核身用意_英文話術",
+    "Phone Script English - Identity Verification": "核對身分_英文話術",
+    "Phone Script English - Payment Method": "信用卡繳款方式_英文話術",
+    "Phone Script English - Card Activation": "信用卡開卡_英文話術",
+    "Phone Script English - Bill Not Received": "信用卡帳單沒收到_英文話術",
+    "Phone Script English - Balance And Available Credit": "信用卡消費金額和可用額度_英文話術",
+    "Phone Script English - Payment Posting Status": "繳款是否入帳_英文話術",
+    "Phone Script English - Change Billing Address": "更改帳單地址_英文話術",
+    "Phone Script English - Cancel Credit Card": "取消信用卡_英文話術",
+    "Phone Script English - Report Lost Card": "掛失_英文話術",
+    "Phone Script English - Credit Limit Increase Request": "申請調高額度_英文話術",
+    "Application Status - Case Received": "申辦信用卡進度 (FE系統已進件)",
+    "Application Status - Case Not Received": "申辦信用卡進度 (FE系統沒有進件)",
+    "Urgent Card Need - Application Status": "急需要使用信用卡，目前進度如何?",
+    "Application Supplementary Documents": "信用卡補件 (補資料)",
+    "Application Rejected - Reason Inquiry": "收到未核准通知，為什麼沒有通過？"
   }
 }
